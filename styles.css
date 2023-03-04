@@ -1,0 +1,31 @@
+/* css styles */
+p {
+    text-align: justify;
+}
+
+.facebook-btn {
+    color: #4267B2;
+    font-size: 27px;
+}
+
+.twitter-btn {
+    color: #1DA1F2;
+    font-size: 27px;
+}
+
+.linkedin-btn {
+    color: #0A66C2;
+    font-size: 27px;
+}
+
+.whatsapp-btn {
+    color: #075E54;
+    font-size: 27px;
+}
+
+.share-on-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}

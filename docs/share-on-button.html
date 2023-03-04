@@ -1,0 +1,58 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" />
+
+<div class="share-on-section">
+
+  <script type="text/javascript" src='https://cdn.trakteer.id/js/embed/trbtn.min.js'></script>
+  <script type="text/javascript">
+    (function() {
+      var trbtnId = trbtn.init('Dukung Saya di Trakteer', '#19287D', 'https://trakteer.id/atensiden', 'https://cdn.trakteer.id/images/embed/trbtn-icon.png', '30');
+      trbtn.draw(trbtnId);
+    })();
+  </script>
+
+  <a href="#" class="facebook-btn">
+    <i class="fab fa-facebook"></i>
+  </a>
+
+  <a href="#" class="twitter-btn">
+    <i class="fab fa-twitter"></i>
+  </a>
+
+  <a href="#" class="linkedin-btn">
+    <i class="fab fa-linkedin"></i>
+  </a>
+
+  <a href="#" class="whatsapp-btn">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+</div>
+
+<script>
+  const facebookBtn = document.querySelector(".facebook-btn");
+  const twitterBtn = document.querySelector(".twitter-btn");
+  const linkedinBtn = document.querySelector(".linkedin-btn");
+  const whatsappBtn = document.querySelector(".whatsapp-btn");
+
+  function init() {
+    let postUrl = encodeURI(document.location.href);
+    let postTitle = encodeURI("Hi ada artikel baru nih, ayo dicek: ");
+    facebookBtn.setAttribute(
+      "href",
+      `https://www.facebook.com/sharer.php?u=${postUrl}`
+    );
+    twitterBtn.setAttribute(
+      "href",
+      `https://twitter.com/share?url=${postUrl}&text=${postTitle}`
+    );
+    linkedinBtn.setAttribute(
+      "href",
+      `https://www.linkedin.com/shareArticle?url=${postUrl}&title=${postTitle}`
+    );
+    whatsappBtn.setAttribute(
+      "href",
+      `https://api.whatsapp.com/send?text=${postTitle} ${postUrl}`
+    );
+  }
+  init();
+</script>

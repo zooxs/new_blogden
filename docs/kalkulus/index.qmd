@@ -1,0 +1,8 @@
+---
+title: "Kalkulus"
+title-block-banner: true
+listing: 
+    type: table
+    contents: posts
+    fields: [image, date, title, author, reading-time]
+---

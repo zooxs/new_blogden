@@ -1,0 +1,44 @@
+project:
+  type: website
+  output-dir: _site
+
+
+website:
+  title: "BlogDen"
+  page-footer: 
+    left: |
+      BlogDen
+    center:
+      - text: "Tentang"
+        href: about.qmd
+    right: 
+      - icon: twitter
+      - icon: instagram
+      - icon: github
+  navbar:
+    background: light
+    title: false
+    collapse-below: lg
+    left:
+      - text: "Beranda"
+        href: index.qmd
+      - text: "Python"
+        href: docs/python-programming/index.qmd
+      - text: "Kalkulus"
+        href: docs/kalkulus/index.qmd
+      - text: "Fisika Dasar"
+        href: docs/fisika-dasar/index.qmd
+      - text: "Tentang Saya"
+        href: about.qmd
+    right:
+      - icon: github
+        href: https://github.com/
+      - icon: twitter
+        href: https://twitter.com
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+language: bahasa.yml
+editor: source
+

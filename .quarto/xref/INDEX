@@ -1,0 +1,65 @@
+{
+  "index.qmd": {
+    "index.html": "a8651376"
+  },
+  "about.qmd": {
+    "about.html": "01caebd0"
+  },
+  "posts/post-with-code/index.qmd": {
+    "index.html": "bd339bcd"
+  },
+  "posts/welcome/index.qmd": {
+    "index.html": "3a85177d"
+  },
+  "docs/python-programming/posts/python1.qmd": {
+    "python1.html": "85589e8b"
+  },
+  "docs/python-programming/index.qmd": {
+    "index.html": "650eceb1"
+  },
+  "posts/test/post-with-code/index.qmd": {
+    "index.html": "075f4aca"
+  },
+  "docs/python-programming/posts/python2/python2.qmd": {
+    "python2.html": "965084a0"
+  },
+  "docs/fisika-dasar/index.qmd": {
+    "index.html": "e535d2f8"
+  },
+  "docs/kalkulus/index.qmd": {
+    "index.html": "ac388366"
+  },
+  "docs/python-programming/posts/python1/python1.qmd": {
+    "python1.html": "a8416b52"
+  },
+  "docs/fisika-dasar/posts/fisdas1/fisdas1.qmd": {
+    "fisdas1.html": "0897c48c"
+  },
+  "docs/kalkulus/posts/kalkulus1/kalkulus1.qmd": {
+    "kalkulus1.html": "e0bd6227"
+  },
+  "docs/kalkulus/posts/kalkulus2/kalkulus2.qmd": {
+    "kalkulus2.html": "e831b923"
+  },
+  "docs/fisika-dasar/posts/fisdas2/fisdas2.qmd": {
+    "fisdas2.html": "1cb4338a"
+  },
+  "docs/blog/index.qmd": {
+    "index.html": "175d0c12"
+  },
+  "docs/kalkulus/posts/fungsi/kalkulus1.qmd": {
+    "kalkulus1.html": "d2b8241c"
+  },
+  "docs/kalkulus/posts/fungsi/pengenalan-fungsi.qmd": {
+    "pengenalan-fungsi.html": "1242c20d"
+  },
+  "docs/kalkulus/posts/limit/kalkulus2.qmd": {
+    "kalkulus2.html": "4a426ee9"
+  },
+  "docs/kalkulus/posts/limit/pengenalan-limit.qmd": {
+    "pengenalan-limit.html": "d3870fd1"
+  },
+  "notebook/notebook.ipynb": {
+    "notebook.html": "4fe385a5"
+  }
+}

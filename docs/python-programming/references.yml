@@ -1,0 +1,7 @@
+---
+- title: "Dasar Pemrograman"
+  links: 
+    - text: "tes 1"
+      href: posts/python1.qmd
+- title: "Librari Python"
+---

@@ -1,0 +1,8 @@
+---
+title: "Python Programming"
+toc: false
+listing:
+  contents: posts
+  type: default
+  fields: [image, date, title, author, reading-time]
+---

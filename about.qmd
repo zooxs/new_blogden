@@ -1,0 +1,21 @@
+---
+title: "Pandu Mulya Muhammad Syah"
+image: photoden.png
+about:
+  template: trestles
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/pandumulyams
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/pandu-mulya-muhammad-syah-3a6b1b22b/
+    - icon: github
+      text: Github
+      href: https://github.com/zooxs
+    - icon: instagram
+      text: Instagram
+      href: https://instargram.com/atensiden
+---
+
+

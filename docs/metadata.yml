@@ -1,0 +1,7 @@
+author: "Pandu Mulya Muhammad Syah"
+
+freeze: true
+
+include-before-body: share-on-button.html
+
+toc: true

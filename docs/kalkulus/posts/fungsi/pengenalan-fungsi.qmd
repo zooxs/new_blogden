@@ -1,0 +1,59 @@
+---
+title: "Pengenalan Fungsi"
+author: "Pandu Mulya Muhammad Syah"
+layout: article
+date: 04 03 2023
+toc: true
+---
+
+
+# Fungsi Dalam Matematika
+
+Fungsi merupakan salah satu materi dasar dan penting yang dipelajari dalam bidang matematika. Fungsi menjelaskan hubungan antara suatu variabel dengan variabel lainnya, input dengan output atau variabel bebas dengan variabel terikat. Perubahan titik didih yang bergantung pada ketinggian lokasi, luas lingkaran yang bergantung pada jari-jari lingkaran, besar pajak yang harus dibayarkan bergantung pada jumlah pendapatan seseorang hingga besar biaya listrik yang bergantung pada pemakaian selama sebulan merupakan contoh fungsi dalam kehidupan sehari-hari. Menjelaskan hubungan "sesutu" yang bergantung pada "sesutu" adalah penjelasan sederhana dari fungsi.
+
+Pada contoh di atas, titik didih, luas lingkaran, besar pajak dan biaya listrik merupakan nilai yang bergantung pada nilai lainnya dan biasa disebut sebagai variabel terikat. Ketinggian lokasi, jari-jari lingkaran, besar pendapatan dan pemakaian listrik merupakan nilai yang mempengaruhi nilai lainnya dan biasa disebut sebagai variabel bebas. Hubungan antara kedua variabel tersebut dapat diwakilkan oleh diagram peta, tabel, persamaan matematis dan grafik.
+
+# Representasi Fungsi
+
+Dari beberapa jenis representasi fungsi di atas, persamaan matematis dan grafik merupakan bentuk yang lazim digunakan. Untuk memudahkan penulisan, variabel bebas dan variabel terikat dinotasikan menjadi $x$ dan $y$ yang bentuk hubungannya diwakilkan oleh $y=f(x)$. Pada bentuk persamaan tersebut, fungsi dapat juga digunakan untuk menghitung suatu nilai jika memasukkan nilai tertentu ke dalam persamaan. Dengan mengambil luas lingkaran sebagai contoh, fungsi tersebut dapat diwakilkan oleh persamaan berikut:
+
+$$
+f(x) = \pi x^2, x \in [0, \infty)
+$$
+
+:::{.callout-note}
+Variabel bebas dan variabel bebas tidak selalu dinotasikan sebagai $x$ dan $y$ notasi lainnya bisa dipakai seperti $A$ untuk luas (*Area*) dan $r$ untuk (*radius*).
+:::
+
+Dengan menggunakan beberapa nilai jari-jari lingkaran, hubungan antara jari-jari dan luas lingkaran dapat ditampilkan seperti pada tabel di bawah ini.
+
+| x | f(x)  |
+|:--|:------|
+| 1 | 3.142 |
+| 2 | 12.57 |
+| 3 | 28.27 |
+| 4 | 50.27 |
+| 5 | 78.54 |
+
+: Luas area {#tbl-luas-area tbl-colwidths="[50,50]"}
+
+Grafik di bawah ini menunjukkan hubungan antara jari-jari dan luas lingkaran lebih jelas. Dari hubungan tersebut diketahui luas lingkaran akan memiliki nilai yang lebih besar bersamaan dengan bertambahnya nilai jari-jarinya. Bentuk dari grafik yang ditampilkan termasuk ke dalam persamaan kuadrat, hal ini disebabkan setiap nilai $y$ yang didapat merupakan hasil kuadrat dari masing-maing nilai $x$.
+
+![Grafik Fungsi](grafik-fungsi.png){#fig-luas-area}
+
+# Komponen Fungsi
+
+Domain dan range merupakan komponen pada suatu fungsi. Domain atau daerah asal merupakan variabel bebas yang nilainya tidak bergantung pada aturan apa pun, secara umum dinotasikan sebagai $x$. Domain juga dapat dipahami sebagi kumpulan nilai $x$ yang dapat digunakan pada suatu fungsi sehingga menghasilkan nilai yang terdefinisi. Range atau daerah hasil merupakan variabel terikat yang nilainya bergantung pada suatu aturan dan nilai dari variabel lainnya, biasanya dinotasikan dengan $y$.
+
+Pada contoh fungsi luas lingkaran di atas, domain dan range-nya merupakan bilangan positif karena dapat dipahami bahwa luas lingkaran pada keadaan riil selalu bernilia positif. Secara matematis dapat dinyatakan sebagai berikut:
+
+```{=tex}
+\begin{align}
+x &= \{ 0, 1, 2, 3, ... \}\\
+y &= \{ 0, 1, 4, 9, ... \}
+\end{align}
+```
+
+# Kesimpulan
+
+Pada pembahasan kali ini telah dipaparkan secara gamblang mengenai fungsi dalam matematika. Dapat dipahami bahwa fungsi merupakan bentuk hubungan antar nilai-nilai terkait yang dapat dinyatakan dalam bentuk persamaan matematis hingga grafik fungsi. Pembahasan turut menjabarkan mengenai komponen fungsi berupa domain dan range. Beranjak dari sini, pembaca telah mendapatkan pemahaman mendasar mengenai fungsi yang nantinya akan berguna dalam materi-materi selanjutnya.

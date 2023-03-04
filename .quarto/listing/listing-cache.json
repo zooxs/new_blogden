@@ -1,0 +1,22 @@
+{
+  "listingMap": {
+    "docs\\fisika-dasar\\index.qmd": [
+      "B3049D40",
+      "posts"
+    ],
+    "docs\\kalkulus\\index.qmd": [
+      "B3049D40",
+      "kalkulus.yml",
+      "posts"
+    ],
+    "docs\\python-programming\\index.qmd": [
+      "posts"
+    ],
+    "index.qmd": [
+      "docs/*/posts/"
+    ],
+    "docs\\blog\\index.qmd": [
+      "B3049D40"
+    ]
+  }
+}

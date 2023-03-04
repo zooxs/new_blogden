@@ -1,0 +1,93 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Pandu Mulya Muhammad Syah",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "docs/fisika-dasar/index.html",
+    "href": "docs/fisika-dasar/index.html",
+    "title": "Fisika Dasar",
+    "section": "",
+    "text": "Tanggal\n\n\nJudul\n\n\nPenulis\n\n\nWaktu Baca\n\n\n\n\n\n\n\n\nTidak ada item yang cocok"
+  },
+  {
+    "objectID": "docs/kalkulus/index.html",
+    "href": "docs/kalkulus/index.html",
+    "title": "Kalkulus",
+    "section": "",
+    "text": "Diurutkan oleh\n       Bawaan\n         \n          Tanggal - Terlama\n        \n         \n          Tanggal - Terbaru\n        \n         \n          Judul\n        \n         \n          Penulis\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nTanggal\n\n\nJudul\n\n\nPenulis\n\n\nWaktu Baca\n\n\n\n\n\n\n\n\n\n4 Mar 2023\n\n\nPengenalan Fungsi\n\n\nPandu Mulya Muhammad Syah\n\n\n2 min\n\n\n\n\n\n\nTidak ada item yang cocok"
+  },
+  {
+    "objectID": "docs/kalkulus/posts/kalkulus1/kalkulus1.html",
+    "href": "docs/kalkulus/posts/kalkulus1/kalkulus1.html",
+    "title": "Tes Kalkulus 1",
+    "section": "",
+    "text": "tes kalkulus"
+  },
+  {
+    "objectID": "docs/kalkulus/posts/kalkulus2/kalkulus2.html",
+    "href": "docs/kalkulus/posts/kalkulus2/kalkulus2.html",
+    "title": "Tes Kalkulus 2",
+    "section": "",
+    "text": "tes kalkulus 2"
+  },
+  {
+    "objectID": "docs/python-programming/index.html",
+    "href": "docs/python-programming/index.html",
+    "title": "Python Programming",
+    "section": "",
+    "text": "Tidak ada item yang cocok"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "BlogDen",
+    "section": "",
+    "text": "Diurutkan oleh\n       Bawaan\n         \n          Tanggal - Terlama\n        \n         \n          Tanggal - Terbaru\n        \n         \n          Judul\n        \n         \n          Penulis\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nTanggal\n\n\nJudul\n\n\nPenulis\n\n\nWaktu Baca\n\n\n\n\n\n\n\n\n\n4 Mar 2023\n\n\nPengenalan Fungsi\n\n\nPandu Mulya Muhammad Syah\n\n\n2 min\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTidak ada item yang cocok"
+  },
+  {
+    "objectID": "docs/blog/index.html",
+    "href": "docs/blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Tidak ada item yang cocok"
+  },
+  {
+    "objectID": "docs/kalkulus/posts/fungsi/kalkulus1.html",
+    "href": "docs/kalkulus/posts/fungsi/kalkulus1.html",
+    "title": "Pengenalan Fungsi",
+    "section": "",
+    "text": "tes kalkulus"
+  },
+  {
+    "objectID": "docs/kalkulus/posts/fungsi/pengenalan-fungsi.html",
+    "href": "docs/kalkulus/posts/fungsi/pengenalan-fungsi.html",
+    "title": "Pengenalan Fungsi",
+    "section": "",
+    "text": "Fungsi Dalam Matematika\nFungsi merupakan salah satu materi dasar dan penting yang dipelajari dalam bidang matematika. Fungsi menjelaskan hubungan antara suatu variabel dengan variabel lainnya, input dengan output atau variabel bebas dengan variabel terikat. Perubahan titik didih yang bergantung pada ketinggian lokasi, luas lingkaran yang bergantung pada jari-jari lingkaran, besar pajak yang harus dibayarkan bergantung pada jumlah pendapatan seseorang hingga besar biaya listrik yang bergantung pada pemakaian selama sebulan merupakan contoh fungsi dalam kehidupan sehari-hari. Menjelaskan hubungan “sesutu” yang bergantung pada “sesutu” adalah penjelasan sederhana dari fungsi.\nPada contoh di atas, titik didih, luas lingkaran, besar pajak dan biaya listrik merupakan nilai yang bergantung pada nilai lainnya dan biasa disebut sebagai variabel terikat. Ketinggian lokasi, jari-jari lingkaran, besar pendapatan dan pemakaian listrik merupakan nilai yang mempengaruhi nilai lainnya dan biasa disebut sebagai variabel bebas. Hubungan antara kedua variabel tersebut dapat diwakilkan oleh diagram peta, tabel, persamaan matematis dan grafik.\n\n\nRepresentasi Fungsi\nDari beberapa jenis representasi fungsi di atas, persamaan matematis dan grafik merupakan bentuk yang lazim digunakan. Untuk memudahkan penulisan, variabel bebas dan variabel terikat dinotasikan menjadi \\(x\\) dan \\(y\\) yang bentuk hubungannya diwakilkan oleh \\(y=f(x)\\). Pada bentuk persamaan tersebut, fungsi dapat juga digunakan untuk menghitung suatu nilai jika memasukkan nilai tertentu ke dalam persamaan. Dengan mengambil luas lingkaran sebagai contoh, fungsi tersebut dapat diwakilkan oleh persamaan berikut:\n\\[\nf(x) = \\pi x^2, x \\in [0, \\infty)\n\\]\n\n\n\n\n\n\nCatatan\n\n\n\nVariabel bebas dan variabel bebas tidak selalu dinotasikan sebagai \\(x\\) dan \\(y\\) notasi lainnya bisa dipakai seperti \\(A\\) untuk luas (Area) dan \\(r\\) untuk (radius).\n\n\nDengan menggunakan beberapa nilai jari-jari lingkaran, hubungan antara jari-jari dan luas lingkaran dapat ditampilkan seperti pada tabel di bawah ini.\n\n\nTabel 1: Luas area\n\n\n\n\n\n\nx\nf(x)\n\n\n\n\n1\n3.142\n\n\n2\n12.57\n\n\n3\n28.27\n\n\n4\n50.27\n\n\n5\n78.54\n\n\n\n\nGrafik di bawah ini menunjukkan hubungan antara jari-jari dan luas lingkaran lebih jelas. Dari hubungan tersebut diketahui luas lingkaran akan memiliki nilai yang lebih besar bersamaan dengan bertambahnya nilai jari-jarinya. Bentuk dari grafik yang ditampilkan termasuk ke dalam persamaan kuadrat, hal ini disebabkan setiap nilai \\(y\\) yang didapat merupakan hasil kuadrat dari masing-maing nilai \\(x\\).\n\n\n\nGambar 1: Grafik Fungsi\n\n\n\n\nKomponen Fungsi\nDomain dan range merupakan komponen pada suatu fungsi. Domain atau daerah asal merupakan variabel bebas yang nilainya tidak bergantung pada aturan apa pun, secara umum dinotasikan sebagai \\(x\\). Domain juga dapat dipahami sebagi kumpulan nilai \\(x\\) yang dapat digunakan pada suatu fungsi sehingga menghasilkan nilai yang terdefinisi. Range atau daerah hasil merupakan variabel terikat yang nilainya bergantung pada suatu aturan dan nilai dari variabel lainnya, biasanya dinotasikan dengan \\(y\\).\nPada contoh fungsi luas lingkaran di atas, domain dan range-nya merupakan bilangan positif karena dapat dipahami bahwa luas lingkaran pada keadaan riil selalu bernilia positif. Secara matematis dapat dinyatakan sebagai berikut:\n\\[\\begin{align}\nx &= \\{ 0, 1, 2, 3, ... \\}\\\\\ny &= \\{ 0, 1, 4, 9, ... \\}\n\\end{align}\\]\n\n\nKesimpulan\nPada pembahasan kali ini telah dipaparkan secara gamblang mengenai fungsi dalam matematika. Dapat dipahami bahwa fungsi merupakan bentuk hubungan antar nilai-nilai terkait yang dapat dinyatakan dalam bentuk persamaan matematis hingga grafik fungsi. Pembahasan turut menjabarkan mengenai komponen fungsi berupa domain dan range. Beranjak dari sini, pembaca telah mendapatkan pemahaman mendasar mengenai fungsi yang nantinya akan berguna dalam materi-materi selanjutnya."
+  },
+  {
+    "objectID": "docs/kalkulus/posts/limit/kalkulus2.html",
+    "href": "docs/kalkulus/posts/limit/kalkulus2.html",
+    "title": "Tes Kalkulus 2",
+    "section": "",
+    "text": "tes kalkulus 2"
+  },
+  {
+    "objectID": "docs/kalkulus/posts/fungsi/pengenalan-fungsi.html#representasi-fungsi",
+    "href": "docs/kalkulus/posts/fungsi/pengenalan-fungsi.html#representasi-fungsi",
+    "title": "Pengenalan Fungsi",
+    "section": "Representasi Fungsi",
+    "text": "Representasi Fungsi\nDari beberapa jenis representasi fungsi di atas, persamaan matematis dan grafik merupakan bentuk yang lazim digunakan. Untuk memudahkan penulisan, variabel bebas dan variabel terikat dinotasikan menjadi \\(x\\) dan \\(y\\) yang bentuk hubungannya diwakilkan oleh \\(y=f(x)\\). Pada bentuk persamaan tersebut, fungsi dapat juga digunakan untuk menghitung suatu nilai jika memasukkan nilai tertentu ke dalam persamaan. Dengan mengambil luas lingkaran sebagai contoh, fungsi tersebut dapat diwakilkan oleh persamaan berikut:\n\\[\nf(x) = \\pi x^2, x \\in [0, \\infty)\n\\]\n\n\n\n\n\n\nCatatan\n\n\n\nVariabel bebas dan variabel bebas tidak selalu dinotasikan sebagai \\(x\\) dan \\(y\\) notasi lainnya bisa dipakai seperti \\(A\\) untuk luas (Area) dan \\(r\\) untuk (radius).\n\n\nDengan menggunakan beberapa nilai jari-jari lingkaran, hubungan antara jari-jari dan luas lingkaran dapat ditampilkan seperti pada tabel di bawah ini.\n\n\nTabel 1: Luas area\n\n\n\n\n\n\nx\nf(x)\n\n\n\n\n1\n3.142\n\n\n2\n12.57\n\n\n3\n28.27\n\n\n4\n50.27\n\n\n5\n78.54\n\n\n\n\nGrafik di bawah ini menunjukkan hubungan antara jari-jari dan luas lingkaran lebih jelas. Dari hubungan tersebut diketahui luas lingkaran akan memiliki nilai yang lebih besar bersamaan dengan bertambahnya nilai jari-jarinya. Bentuk dari grafik yang ditampilkan termasuk ke dalam persamaan kuadrat, hal ini disebabkan setiap nilai \\(y\\) yang didapat merupakan hasil kuadrat dari masing-maing nilai \\(x\\).\n\n\n\nGambar 1: Grafik Fungsi"
+  },
+  {
+    "objectID": "notebook/notebook.html",
+    "href": "notebook/notebook.html",
+    "title": "BlogDen",
+    "section": "",
+    "text": "import matplotlib.pyplot as plt\nfrom math import pi\nx = [i for i in range(10)]\ny = [pi*i**2 for i in x]\n\nplt.plot(x, y, marker='o', label=r'$f(x)=\\pi x^2$')\nplt.xlabel('x')\nplt.ylabel('y')\nplt.axhline(color='k')\nplt.axvline(color='k')\nplt.grid(which='both')"
+  }
+]

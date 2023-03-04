@@ -1,0 +1,11 @@
+---
+title: "BlogDen"
+subtitle: "Blog pribadi tempat berbagi pengetahuan."
+page-layout: article
+title-block-banner: true
+listing:
+  contents: 
+    - "docs/*/posts/"
+---
+
+selamat datang di blog pribadi saya
