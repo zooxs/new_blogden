@@ -1,6 +1,76 @@
 ---
-title: "Tes Fisika Dasar 1"
+title: "7 Poin Penting Dalam Memahami Gerak Lurus"
+author: "Pandu Mulya Muhammad Syah"
+toc: true
 draft: true
 ---
 
-tes fisika dasar 1
+# Gerakan
+
+Dalam disiplin ilmu Fisika, pengamatan terhadap gerakan benda menjadi materi paling awal yang dikenalkan dan dipelajari oleh pelajar dari berbagai jenjang pendidikan. Pelajar diajak untuk mengamati gerak suatu benda. Ada beberapa hal yang diamati dari gerakan tersebut seperti cepat atau tidaknya benda tersebut berpindah pada lintasan dan rentang waktu yang ditentukan, bagaimana jika dibandingkan dengan benda lain untuk kondisi yang sama, apakah terjadi perubahan kecepatan baik penambahan maupun pengurangan. Dalam gerak lurus ada berbapa batasan yang perlu dipahami:
+
+- Lintasan dari benda yang bergerak berupa garis lurus baik mendatar, tegak lurus ataupun diagonal
+- Gaya atau penyebab benda bergerak tidak dibahas melainkan perubahan yang terjadi pada benda tersebut selama bergerak
+- Benda yang bergerak dapat diasumsikan sebagai partikel (benda titik) untuk memudahkan analisis
+
+## Posisi dan Perpindahan
+
+Hal mendasar yang perlu dipahami dalam sub-materi ini adalah posisi dari benda yang diamati. Posisi benda yang diamati dapat dipahami sebagai seberapa jauh benda tersebut dari titik acuan (biasanya berupa titik 0). Konsekuensi dari penggunaan titik acuan ini posisi benda dapat bernilai postif atau negatif, benda yang diamati dapat berlokasi 4 m di kanan titik acuan atau 5 m di kiri titik acuan. Secara umum penandaan positif dan negatif mengikuti arah kanan dan kiri, jika berada di kanan titik bernilai positif dan negatif sebaliknya.
+
+Konsep berikutnya yang perlu dipahami adalah perpindahan, seberapa jauh benda tersebut berpindah dari posisi awalnya (@eq-perpindahan). Perpindahan atau perubahan posisi mirip dengan posisi namun memiliki titik acuan yang berbeda. Perpindahan suatu benda dapat bernilai positif atau negatif karena memiliki karakteristik yang mirip dengan posisi. Yang menjadi perhatian penting pada perpindahan adalah posisi awal dan akhir, tidak mementingkan total jarak yang ditempuh.
+
+$$
+\Delta x = x_2 - x_1
+$$ {#eq-perpindahan}
+
+## Kecepatan dan Kelajuan Rata-rata
+
+Parameter yang dapat digunakan untuk mengukur seberapa cepat suatu benda bergerak adalah kecepatan rata-rata. Parameter ini mengindikasikan rasio perpindahan benda yang diamati pada rentang waktu tertentu (@eq-kecepatan-rata2). Parameter lainnya adalah kelajuan rata-rata yang mengukur pergerakan benda bukan dari perpindahan tetapi dari totol jarak yang ditempuh pada interval yang ditetapkan (@eq-kelajuan-rata2).
+
+$$
+\vec{v} = \frac{\Delta x}{\Delta t} = \frac{x_2 - x_1}{t_2 - t_1}
+$$ {#eq-kecepatan-rata2}
+
+$$
+v = \frac{s}{\Delta t}
+$$ {#eq-kelajuan-rata2}
+
+## Kecepatan dan Kelajuan Sesaat
+
+Konsep ini mirip dengan konsep sebelumnya, hanya saja diamati pada rentang waktu yang sangat kecil sekali. Umumnya menggunakan kalkulus (turunan dan integral) dalam analisisnya.
+
+$$
+v(t) = \lim_{\Delta t \to 0} x(t) = \frac{x(t + \Delta t) - x(t)}{\Delta t} = \frac{dx}{dt}
+$$
+
+## Percepatan
+
+Pengamatan terhadap perubahan kecepatan dari benda yang diamati turut menjadi pertimbangan penting dalam sub-materi ini (@eq-percepatan-rata2). Benda yang diamati dapat mengalami pertambahan kecepatan dalam rentang waktu tertentu (percepatan) atau sebaliknya mengalami pengurangan kecepatan (perlambatan).
+
+$$
+\vec{a} = \frac{\Delta v}{\Delta t} = \frac{v_2 - v_1}{t_2 - t_1}
+$$ {#eq-percepatan-rata2}
+
+## Percepatan Konstan
+
+Salah satu kondisi khusus dalam penagamatan gerak benda adalah percepatan yang konstan. Perubahan kecepatan benda yang diamati konstan terhadap waktu baik percepatan atau pun perlambatan. Terdapat 3 persamaan dasar yang umum digunakan dalam kondisi ini (@eq-kecepatan-glbb, @eq-jarak-glbb, @eq-percepatan-glbb)
+
+$$
+v_t = v_0 + at
+$$ {#eq-kecepatan-glbb}
+
+$$
+x = v_0t + \frac{1}{2}at^2
+$$ {#eq-jarak-glbb}
+
+$$
+2ax = v_t^2 - v_0^2
+$$ {#eq-percepatan-glbb}
+
+## Gerak Jatuh Bebas
+
+Salah satu contoh gerak benda yang memilki percepatan konstan adalah gerak jatuh bebas. Benda yang jatuh bebas akan mengalami penambahan kecepatan 9.8 m/s setiap detiknya yang sesuai dengan besar percepatan gravitasi bumi.
+
+## Analisis Grafik Fungsi
+
+Ilustrasi paling memudahkan dalam mengamati gerak suatu benda adalah melalui grafik fungsi gerakannya baik fungsi posisi, kecepatan maupun percepatan terhadap waktu.
