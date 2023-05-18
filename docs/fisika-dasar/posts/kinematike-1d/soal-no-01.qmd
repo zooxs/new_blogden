@@ -2,10 +2,8 @@
 title: "Pembahasan Soal Kinematika 1D - 01"
 author: "Pandu Mulya Muhammad Syah"
 toc: true
-date: 19 05 2023
+date: 18 05 2023
 ---
-
-### Soal
 
 Sebuah bola bergerak pada lintasan lurus sepanjang 100 m. Pada 50 m pertama bola tersebut diketahui bergerak dengan kecepatan konstan sebesar 2 m/s. Jika pada sisa perjalanan bola tersebut melaju dengan kecepatan 5 m/s, tentukan kecepatan rata-rata bola.
 
