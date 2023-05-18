@@ -1,0 +1,36 @@
+---
+title: "Pembahasan Soal Kinematika 1D - 02"
+author: "Pandu Mulya Muhammad Syah"
+toc: true
+date: 19 05 2023
+---
+
+Pada lomba lari jarak 1 km diketahui pelari nomor punggung 1 di jalur 1 sampai pada garis finish dengan waktu tempuh 2 menit 10.95 detik. Pelari nomor punggung 2 di jalur 2 selesai lebih lambat dengan waktu tempuh 2 menit 11.15 detik. Jika jalur 2 lebih panjang dibanding jalur 1, tentukan besar selisih kedua jalur agar pelari nomor punggu 1 tetap lebih cepat dibanding pelari nomor 2.
+
+
+
+### Analisis
+
+Walaupun nomor lomba lari pada persoalan di atas adalah 1 km, terdapat perbedaan panjang dari kedua lintasan yang diamati. Pelari nomor punggung 1 akan tetap lebih cepat dibanding nomor punggung 2 ketika kecepatannya lebih besar atau sama dibanding kecepatan pelari nomor punggung 2.
+
+```{=tex}
+\begin{align*}
+v_1 &\geq v_2
+\end{align*}
+```
+
+### Solusi
+
+Mengacu pada syarat di atas, selisih kedua panjang jalur dapat ditentukan. Masing-masing waktu tempuh dari kedua pelari tersebut perlu dikonversi ke dalam satuan detik ($t_1 = 130.95 \text{ s}$ dan $t_2 = 131.15 \text{ s}$).
+
+```{=tex}
+\begin{align*}
+v_1 &\geq v_2\\
+\frac{L_1}{t_1} &= \frac{L_2}{t_2}\\
+\frac{L_1}{L_2} &= \frac{t_1}{t_2}\\
+\frac{L_1}{L_2} &= \frac{130.95}{131.15}\\
+L_2 &= L_1 \cdot \frac{131.15}{130.95}\\
+L_2 - L_1 &= 1000 \cdot \left( \frac{131.15}{130.95} - 1\right)\\
+L_2 - L_1 &= 1.53 \text{ m}
+\end{align*}
+```

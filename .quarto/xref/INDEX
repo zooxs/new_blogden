@@ -61,5 +61,14 @@
   },
   "notebook/notebook.ipynb": {
     "notebook.html": "4fe385a5"
+  },
+  "docs/fisika-dasar/posts/kinematike-1d/fisdas1.qmd": {
+    "fisdas1.html": "ddd113c6"
+  },
+  "docs/fisika-dasar/posts/kinematike-1d/soal-no-01.qmd": {
+    "soal-no-01.html": "84d8b84a"
+  },
+  "docs/fisika-dasar/posts/kinematike-1d/soal-no-02.qmd": {
+    "soal-no-02.html": "c663c5b5"
   }
 }

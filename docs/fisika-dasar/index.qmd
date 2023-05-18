@@ -2,7 +2,8 @@
 title: "Fisika Dasar"
 title-block-banner: true
 listing: 
-    type: table
+    type: default
     contents: posts
-    fields: [image, date, title, author, reading-time]
+    # fields: [image, date, title, author, reading-time]
+    
 ---

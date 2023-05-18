@@ -1,0 +1,41 @@
+---
+title: "Pembahasan Soal Kinematika 1D - 01"
+author: "Pandu Mulya Muhammad Syah"
+toc: true
+date: 19 05 2023
+---
+
+### Soal
+
+Sebuah bola bergerak pada lintasan lurus sepanjang 100 m. Pada 50 m pertama bola tersebut diketahui bergerak dengan kecepatan konstan sebesar 2 m/s. Jika pada sisa perjalanan bola tersebut melaju dengan kecepatan 5 m/s, tentukan kecepatan rata-rata bola.
+
+![Soal 01](img/soal-01.jpg)
+
+### Analisis
+
+Dari soal di atas diketahui bola bergerak dengan kecepatan yang berbeda pada 2 rentang jarak yang bebeda. Dari informasi ini dapat ditentukan waktu tempuh bola pada masing-masing bagian lintasan.
+
+```{=tex}
+\begin{align*}
+t_{AB} &= \frac{\Delta x_{AB}}{v_{AB}}\\
+t_{AB} &= \frac{50}{2}\\
+t_{AB} &= 25 \text{ s}\\
+t_{BC} &= \frac{\Delta x_{BC}}{v_{BC}}\\
+t_{BC} &= \frac{50}{5}\\
+t_{BC} &= 10 \text{ s}\\
+t_{AC} &= t_{AB} + t_{BC}\\
+t_{AC} &= 35 \text{ s}
+\end{align*}
+```
+
+### Solusi
+
+Kecepatan rata-rata bola pada lintasan di atas dapat ditentukan dengan informasi panjang total lintasan dan waktu tempuhnya.
+
+```{=tex}
+\begin{align*}
+v_{AC} &= \frac{\Delta x_{AC}}{t_{AC}}\\
+v_{AC} &= \frac{100}{35}\\
+v_{AC} &= 2.86 \text{ m/s}
+\end{align*}
+```
