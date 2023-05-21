@@ -3,7 +3,8 @@
     "listing": "/docs/fisika-dasar/index.html",
     "items": [
       "/docs/fisika-dasar/posts/kinematike-1d/soal-no-01.html",
-      "/docs/fisika-dasar/posts/kinematike-1d/soal-no-02.html"
+      "/docs/fisika-dasar/posts/kinematike-1d/soal-no-02.html",
+      "/docs/fisika-dasar/posts/kinematike-1d/soal-no-03.html"
     ]
   },
   {
@@ -21,6 +22,7 @@
     "items": [
       "/docs/fisika-dasar/posts/kinematike-1d/soal-no-01.html",
       "/docs/fisika-dasar/posts/kinematike-1d/soal-no-02.html",
+      "/docs/fisika-dasar/posts/kinematike-1d/soal-no-03.html",
       "/docs/kalkulus/posts/fungsi/pengenalan-fungsi.html"
     ]
   },

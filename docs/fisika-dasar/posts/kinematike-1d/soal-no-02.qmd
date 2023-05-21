@@ -5,6 +5,8 @@ toc: true
 date: 19 05 2023
 ---
 
+![](img/tb-kinematik-1d-02.png)
+
 Pada lomba lari jarak 1 km diketahui pelari nomor punggung 1 di jalur 1 sampai pada garis finish dengan waktu tempuh 2 menit 10.95 detik. Pelari nomor punggung 2 di jalur 2 selesai lebih lambat dengan waktu tempuh 2 menit 11.15 detik. Jika jalur 2 lebih panjang dibanding jalur 1, tentukan besar selisih kedua jalur agar pelari nomor punggu 1 tetap lebih cepat dibanding pelari nomor 2.
 
 
