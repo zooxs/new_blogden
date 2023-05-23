@@ -11,7 +11,7 @@
     "href": "docs/fisika-dasar/index.html",
     "title": "Fisika Dasar",
     "section": "",
-    "text": "Pembahasan Soal Kinematika 1D - 01\n\n\n\n\n\n\n\n\n\n\n\n\n18 Mei 2023\n\n\nPandu Mulya Muhammad Syah\n\n\n\n\n\n\n  \n\n\n\n\nPembahasan Soal Kinematika 1D - 02\n\n\n\n\n\n\n\n\n\n\n\n\n19 Mei 2023\n\n\nPandu Mulya Muhammad Syah\n\n\n\n\n\n\n  \n\n\n\n\nPembahasan Soal Kinematika 1D - 03\n\n\n\n\n\n\n\n\n\n\n\n\n21 Mei 2023\n\n\nPandu Mulya Muhammad Syah\n\n\n\n\n\n\n  \n\n\n\n\nPembahasan Soal Kinematika 1D - 04\n\n\n\n\n\n\n\n\n\n\n\n\n23 Mei 2023\n\n\nPandu Mulya Muhammad Syah\n\n\n\n\n\n\nTidak ada item yang cocok"
+    "text": "Pembahasan Soal Kinematika 1D - 01\n\n\n\n\n\n\n\n\n\n\n\n\n18 Mei 2023\n\n\nPandu Mulya Muhammad Syah\n\n\n\n\n\n\n  \n\n\n\n\nPembahasan Soal Kinematika 1D - 02\n\n\n\n\n\n\n\n\n\n\n\n\n19 Mei 2023\n\n\nPandu Mulya Muhammad Syah\n\n\n\n\n\n\n  \n\n\n\n\nPembahasan Soal Kinematika 1D - 03\n\n\n\n\n\n\n\n\n\n\n\n\n21 Mei 2023\n\n\nPandu Mulya Muhammad Syah\n\n\n\n\n\n\n  \n\n\n\n\nPembahasan Soal Kinematika 1D - 04\n\n\n\n\n\n\n\n\n\n\n\n\n23 Mei 2023\n\n\nPandu Mulya Muhammad Syah\n\n\n\n\n\n\n  \n\n\n\n\nPembahasan Soal Kinematika 1D - 05\n\n\n\n\n\n\n\n\n\n\n\n\n24 Mei 2023\n\n\nPandu Mulya Muhammad Syah\n\n\n\n\n\n\nTidak ada item yang cocok"
   },
   {
     "objectID": "docs/kalkulus/index.html",
@@ -152,5 +152,12 @@
     "title": "Pembahasan Soal Kinematika 1D - 01",
     "section": "Soal",
     "text": "Soal\nSebuah bola bergerak pada lintasan lurus sepanjang 100 m. Pada 50 m pertama bola tersebut diketahui bergerak dengan kecepatan konstan sebesar 2 m/s. Jika pada sisa perjalanan bola tersebut melaju dengan kecepatan 5 m/s, tentukan kecepatan rata-rata bola.\n\n\n\nSoal 01\n\n\n\nAnalisis\nDari soal di atas diketahui bola bergerak dengan kecepatan yang berbeda pada 2 rentang jarak yang bebeda. Dari informasi ini dapat ditentukan waktu tempuh bola pada masing-masing bagian lintasan.\n\\[\\begin{align*}\nt_{AB} &= \\frac{\\Delta x_{AB}}{v_{AB}}\\\\\nt_{AB} &= \\frac{50}{2}\\\\\nt_{AB} &= 25 \\text{ s}\\\\\nt_{BC} &= \\frac{\\Delta x_{BC}}{v_{BC}}\\\\\nt_{BC} &= \\frac{50}{5}\\\\\nt_{BC} &= 10 \\text{ s}\\\\\nt_{AC} &= t_{AB} + t_{BC}\\\\\nt_{AC} &= 35 \\text{ s}\n\\end{align*}\\]\n\n\nSolusi\nKecepatan rata-rata bola pada lintasan di atas dapat ditentukan dengan informasi panjang total lintasan dan waktu tempuhnya.\n\\[\\begin{align*}\nv_{AC} &= \\frac{\\Delta x_{AC}}{t_{AC}}\\\\\nv_{AC} &= \\frac{100}{35}\\\\\nv_{AC} &= 2.86 \\text{ m/s}\n\\end{align*}\\]"
+  },
+  {
+    "objectID": "docs/fisika-dasar/posts/kinematike-1d/soal-no-05.html#soal",
+    "href": "docs/fisika-dasar/posts/kinematike-1d/soal-no-05.html#soal",
+    "title": "Pembahasan Soal Kinematika 1D - 05",
+    "section": "Soal",
+    "text": "Soal\nPosisi sebuah partikel dapat diwakilkan oleh fungsi gerak (dalam cm) terhadap waktu \\(x(t) = 15t - 15t^3\\). Berdasarkan fungsi tersebut, tentukan beberapa solusi dari pertanyaan berikut:\n\nKapan kecepatan partikel bernilai 0\nKapan percepatan partikel bernilai 0\nKapan percepatan partikel bernilai negatif dan positif\n\n\nAnalisis\nKondisi kecepatan dan percepatan partikel bernilai 0 dapat ditentukan dengan mencari nilai \\(t\\) ketika turunan pertama dan kedua fungsi posisi dari partikel.\n\n\nSolusi\n\nKecepatan partikel bernilai 0\n\n\\[\\begin{align*}\nv(t) &= x'(t)\\\\\nv(t) &= 15 - 15t^2\\\\\n0 &= 15 - 15t^2\\\\\n0 &= 1 - t^2\\\\\nt &= \\pm 1\n\\end{align*}\\]\n\nPercepatan partikel bernilai 0\n\n\\[\\begin{align*}\na(t) &= v'(t)\\\\\na(t) &= - 30t\\\\\n0 &= - 30t\\\\\nt &= 0\n\\end{align*}\\]\n\nPercepatan partikel bernilai negatif dan positif. Berdasarkan fungsi percepatan, nilai negatif berada pada sub-domain \\(t>0\\) sedangkan nilai positif berada pada sub-domain \\(t<0\\)"
   }
 ]

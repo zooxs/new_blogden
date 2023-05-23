@@ -1,0 +1,52 @@
+---
+title: "Pembahasan Soal Kinematika 1D - 05"
+author: "Pandu Mulya Muhammad Syah"
+toc: true
+date: 24 05 2023
+---
+
+![](img/tb-kinematik-1d-05.png)
+
+## Soal
+
+Posisi sebuah partikel dapat diwakilkan oleh fungsi gerak (dalam cm) terhadap waktu $x(t) = 15t - 15t^3$. Berdasarkan fungsi tersebut, tentukan beberapa solusi dari pertanyaan berikut:
+
+1. Kapan kecepatan partikel bernilai 0
+2. Kapan percepatan partikel bernilai 0
+3. Kapan percepatan partikel bernilai negatif dan positif
+
+
+
+### Analisis
+
+Kondisi kecepatan dan percepatan partikel bernilai 0 dapat ditentukan dengan mencari nilai $t$ ketika turunan pertama dan kedua fungsi posisi dari partikel.
+
+### Solusi
+
+1. Kecepatan partikel bernilai 0
+
+```{=tex}
+\begin{align*}
+v(t) &= x'(t)\\
+v(t) &= 15 - 15t^2\\
+0 &= 15 - 15t^2\\
+0 &= 1 - t^2\\
+t &= \pm 1
+\end{align*}
+```
+
+2. Percepatan partikel bernilai 0
+
+```{=tex}
+\begin{align*}
+a(t) &= v'(t)\\
+a(t) &= - 30t\\
+0 &= - 30t\\
+t &= 0
+\end{align*}
+```
+
+3. Percepatan partikel bernilai negatif dan positif. Berdasarkan fungsi percepatan, nilai negatif berada pada sub-domain $t>0$ sedangkan nilai positif berada pada sub-domain $t<0$
+
+
+
