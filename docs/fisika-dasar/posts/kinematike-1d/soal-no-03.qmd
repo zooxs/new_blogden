@@ -7,6 +7,8 @@ date: 21 05 2023
 
 ![](img/tb-kinematik-1d-03.png)
 
+## Soal
+
 Budi berencana melakukan perjalanan antara Kota A dan Kota B yang berjarak 300 km. Pada rute tersebut pengendara biasanya membutuhkan waktu 3 jam menggunakan mobil. Budi berangkat pada jam 8:00 waktu setempat dan diperkirakan sampai pada jam 11:00, satu jam berikutnya Budi telah menempuh sepertiga total perjalanan. Karena permasalahan pada mobilnya, Budi mencari bengkel terdekat selama 1 jam perjalan dengan 75% kecepatan awal. Waktu yang diperlukan untuk reparasi dibengkel adalah 20 menit, pada kondisi ini Budi yakin dia tidak akan sampai tepat waktu jika melaju dengan kecepatan awal dan perlu meningkatkan kecepatan kendaraannya. Dengan mengasumsikan rute perjalan berupa garis lurus dan pengaruh perubahan kecepatan diabaikan, tentukan kecepatan yang diperlukan oleh Budi untuk sampai tepat waktu. 
 
 ![Ilustrasi permasalahan](img/soal-03-01.png)

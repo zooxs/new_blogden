@@ -8,7 +8,7 @@
 
 <meta name="author" content="Pandu Mulya Muhammad Syah">
 
-<title>BlogDen - Pembahasan Soal Kinematika 1D - 03</title>
+<title>BlogDen - Pembahasan Soal Kinematika 1D - 04</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -195,7 +195,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Pembahasan Soal Kinematika 1D - 03</h1>
+<h1 class="title">Pembahasan Soal Kinematika 1D - 04</h1>
 </div>
 
 
@@ -212,7 +212,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Diterbitkan</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">21 Mei 2023</p>
+      <p class="date">23 Mei 2023</p>
     </div>
   </div>
   
@@ -222,26 +222,42 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p><img src="img/tb-kinematik-1d-03.png" class="img-fluid"></p>
+<p><img src="img/tb-kinematik-1d-04.png" class="img-fluid"></p>
 <section id="soal" class="level2">
 <h2 class="anchored" data-anchor-id="soal">Soal</h2>
-<p>Budi berencana melakukan perjalanan antara Kota A dan Kota B yang berjarak 300 km. Pada rute tersebut pengendara biasanya membutuhkan waktu 3 jam menggunakan mobil. Budi berangkat pada jam 8:00 waktu setempat dan diperkirakan sampai pada jam 11:00, satu jam berikutnya Budi telah menempuh sepertiga total perjalanan. Karena permasalahan pada mobilnya, Budi mencari bengkel terdekat selama 1 jam perjalan dengan 75% kecepatan awal. Waktu yang diperlukan untuk reparasi dibengkel adalah 20 menit, pada kondisi ini Budi yakin dia tidak akan sampai tepat waktu jika melaju dengan kecepatan awal dan perlu meningkatkan kecepatan kendaraannya. Dengan mengasumsikan rute perjalan berupa garis lurus dan pengaruh perubahan kecepatan diabaikan, tentukan kecepatan yang diperlukan oleh Budi untuk sampai tepat waktu.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/soal-03-01.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Ilustrasi permasalahan</figcaption><p></p>
-</figure>
-</div>
+<p>Posisi sebuah bola dapat diwakilkan oleh fungsi gerak (dalam cm) terhadap waktu <span class="math inline">\(x(t) = 5 + 2.5t^3\)</span>. Berdasarkan fungsi tersebut, tentukan kecepatan rata-rata bola pada rentang waktu 2 - 3 detik, kecepatan sesaat bola pada waktu 3 dan 4 detik.</p>
 <section id="analisis" class="level3">
 <h3 class="anchored" data-anchor-id="analisis">Analisis</h3>
-<p>Berdasarkan informasi di atas diketahui kecepatan yang biasa digunakan pengendara saat melewati rute tersebut adalah 100 km/jam. Pada 1 jam pertama perjalanan, Budi telah menempuh 1/3 jarak rute tersebut (100 km) yang mengindikasikan dia melaju seperti kebanyakan orang. 1 jam berikutnya Budi melaju dengan kecepatan yang lebih lambat (75 km/jam) karena terdapat permasalahan pada kendaraannya. Setelah menemukan bengkel terdekat, dibutuhkan waktu 20 menit untuk reparasi. Dengan demikian total waktu perjalanan Budi sejauh ini adalah 2 jam 20 menit, dengan sisa waktu 40 menit untuk sampai ditempat tujuan tepat waktu. Total jarak yang telah ditempuh Budi sejauh ini adalah 175 km/jam dan tersisa 125 km.</p>
+<p>Kecepatan rata-rata dan kecepatan sesaat pada dasarnya merupakan parameter yang sama. Kecepatan rata-rata merupakan rasio perpindahan total benda terhadap waktu tempuhnya. Kecepatan sesaat memiliki konsep yang sama, hanya saja perbendaan waktu tempuhnya sangat kecil sekali sehingga dalam penentuannya biasa menggunakan turunan fungsi posisi.</p>
 </section>
 <section id="solusi" class="level3">
 <h3 class="anchored" data-anchor-id="solusi">Solusi</h3>
-<p>Kecepatan yang dibutuhkan Budi agar sampai tepat waktu di Kota B dapat dicari dengan membagi sisa jarak dan waktu yang tersedia.</p>
+<ul>
+<li>Kecepatan rata-rata bola pada rentang waktu 2 - 3 detik.</li>
+</ul>
 <span class="math display">\[\begin{align*}
-v_2 &amp;= \frac{125 \text{ km}}{ (2/3) \text{ jam}}\\
-v_2 &amp;= 187.5 \text{ km/jam}
+x(2) &amp;= 5 + 2.5 \cdot (2)^3\\
+x(2) &amp;= 25 \text{ cm}\\
+x(3) &amp;= 5 + 2.5 \cdot (3)^3\\
+x(3) &amp;= 72.5 \text{ cm}\\
+\overline{v} &amp;= \frac{72.5 - 25}{3 - 2}\\
+\overline{v} &amp;= 47.5 \text{cm /s}
+\end{align*}\]</span>
+<ul>
+<li>Kecepatan sesaat bola pada <span class="math inline">\(t = 2 \text{ s}\)</span>.</li>
+</ul>
+<span class="math display">\[\begin{align*}
+v(t) &amp;= x''(t)\\
+v(t) &amp;= 7.5t^2\\
+v(2) &amp;= 7.5 \cdot (2)^2\\
+v(2) &amp;= 30 \text{ cm/s}
+\end{align*}\]</span>
+<ul>
+<li>Kecepatan sesaat bola pada <span class="math inline">\(t = 3 \text{ s}\)</span>.</li>
+</ul>
+<span class="math display">\[\begin{align*}
+v(3) &amp;= 7.5 \cdot (3)^2\\
+v(3) &amp;= 67.5 \text{ cm/s}
 \end{align*}\]</span>
 
 

@@ -1,0 +1,53 @@
+---
+title: "Pembahasan Soal Kinematika 1D - 04"
+author: "Pandu Mulya Muhammad Syah"
+toc: true
+date: 23 05 2023
+---
+
+![](img/tb-kinematik-1d-04.png)
+
+## Soal
+
+Posisi sebuah bola dapat diwakilkan oleh fungsi gerak (dalam cm) terhadap waktu $x(t) = 5 + 2.5t^3$. Berdasarkan fungsi tersebut, tentukan kecepatan rata-rata bola pada rentang waktu 2 - 3 detik, kecepatan sesaat bola pada waktu 3 dan 4 detik.
+
+
+
+### Analisis
+
+Kecepatan rata-rata dan kecepatan sesaat pada dasarnya merupakan parameter yang sama. Kecepatan rata-rata merupakan rasio perpindahan total benda terhadap waktu tempuhnya. Kecepatan sesaat memiliki konsep yang sama, hanya saja perbendaan waktu tempuhnya sangat kecil sekali sehingga dalam penentuannya biasa menggunakan turunan fungsi posisi.
+
+### Solusi
+
+- Kecepatan rata-rata bola pada rentang waktu 2 - 3 detik.
+
+```{=tex}
+\begin{align*}
+x(2) &= 5 + 2.5 \cdot (2)^3\\
+x(2) &= 25 \text{ cm}\\
+x(3) &= 5 + 2.5 \cdot (3)^3\\
+x(3) &= 72.5 \text{ cm}\\
+\overline{v} &= \frac{72.5 - 25}{3 - 2}\\
+\overline{v} &= 47.5 \text{cm /s}
+\end{align*}
+```
+
+- Kecepatan sesaat bola pada $t = 2 \text{ s}$.
+
+```{=tex}
+\begin{align*}
+v(t) &= x''(t)\\
+v(t) &= 7.5t^2\\
+v(2) &= 7.5 \cdot (2)^2\\
+v(2) &= 30 \text{ cm/s}
+\end{align*}
+```
+
+- Kecepatan sesaat bola pada $t = 3 \text{ s}$.
+
+```{=tex}
+\begin{align*}
+v(3) &= 7.5 \cdot (3)^2\\
+v(3) &= 67.5 \text{ cm/s}
+\end{align*}
+```
