@@ -1,0 +1,71 @@
+---
+title: "Pembahasan Soal Kinematika 1D - 06"
+author: "Pandu Mulya Muhammad Syah"
+toc: true
+date: 25 05 2023
+---
+
+![](img/tb-kinematik-1d-06.png)
+
+## Soal
+
+Sebuah mobil bergerak dari keadaan diam dengan percepatan 2 m/s^2^ pada lintasa lurus hingga mencapai kecepatan 16 m/s. Selanjutnya mobil tersebut melambat dengan perlambatan konstan 1 m/s^2^. Berdasarkan informasi yang tersedia tentukan berapa lama waktu yang dibutuhkan mobil dari posisi awal hingga posisi akhir beserta jarak totalnya.
+
+![Ilustrasi permasalahan](img/soal-06-01.png)
+
+### Analisis
+
+Terdapat 2 kondisi pada permasalahan di atas yaitu mobil dipercepat dan diperlambat. Analisis terpisah dapat dilakukan untuk mencari waktu dan jarak dari setiap kondisi.
+
+### Solusi
+
+1. Kondisi dipercepat
+
+- Waktu tempuh
+
+```{=tex}
+\begin{align*}
+a_1 &= \frac{v_1 - v_0}{t_1}\\
+t_1 &= \frac{v_1 - v_0}{a_1}\\
+t_1 &= \frac{16 - 0}{2}\\
+t_1 &= 8 \text{ s}
+\end{align*}
+```
+
+- Jarak tempuh
+
+```{=tex}
+\begin{align*}
+s_1 &= v_0t_1 + \frac{1}{2}a_1t_1^2\\
+s_1 &= \frac{1}{2} \times 2 \times {8}^2\\
+s_1 &= 64 \text{ m}
+\end{align*}
+```
+
+2. Kondisi diperlambat
+
+- Waktu tempuh
+
+```{=tex}
+\begin{align*}
+a_2 &= \frac{v_2 - v_1}{t_2}\\
+t_2 &= \frac{v_2 - v_1}{a_2}\\
+t_2 &= \frac{0 - 16}{-1}\\
+t_2 &= 16 \text{ s}
+\end{align*}
+```
+
+- Jarak tempuh
+
+```{=tex}
+\begin{align*}
+s_2 &= v_1t_2 + \frac{1}{2}a_2t_2^2\\
+s_2 &= 16 \times 16+ \frac{1}{2} \times (-1) \times {16}^2\\
+s_2 &= 248 \text{ m}
+\end{align*}
+```
+
+Dengan demikian total waktu dan jarak tempuh dari soal di atas adalah 32 detik dan 312 meter.
+
+
+
