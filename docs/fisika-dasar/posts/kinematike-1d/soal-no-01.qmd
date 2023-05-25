@@ -11,7 +11,7 @@ date: 18 05 2023
 
 Sebuah bola bergerak pada lintasan lurus sepanjang 100 m. Pada 50 m pertama bola tersebut diketahui bergerak dengan kecepatan konstan sebesar 2 m/s. Jika pada sisa perjalanan bola tersebut melaju dengan kecepatan 5 m/s, tentukan kecepatan rata-rata bola.
 
-![Soal 01](img/soal-01.jpg)
+![Ilustrasi permasalahan](img/soal-01-01.png)
 
 ### Analisis
 
