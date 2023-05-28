@@ -1,0 +1,79 @@
+---
+title: "Pembahasan Soal Kinematika 1D - 07"
+author: "Pandu Mulya Muhammad Syah"
+toc: true
+date: 28 05 2023
+---
+
+![](img/tb-kinematik-1d-07.png)
+
+## Soal
+
+Sebuah elevator dapat berpindah sejauh 190 m dan memiliki kecepatan maksimum 300 m/menit. Elevator tersebut bergerak dari keadaan diam dan kembali ke kondisi diam dengan percepatan dan perlambatan 1 m/s^2^. Tentukan jarak yang ditempuh elevator untuk mencapai kecepatan maksimum dari kondisi diam dan berapa lama elevator menempuh jarak 190 m tersebut.
+
+![Ilustrasi Permasalahan](img/soal-07-01.png)
+
+### Analisis
+
+Elevator pada permasalahan di atas mengikuti pola dipercepat - kecepatan konstan - diperlambat. Perlu dilakukan analisis untuk masing-masing segmen pergerakan. Dari informasi yang tersedia dapat dicari terlebih dahulu jarak tempuh elevator saat mencapai kecepatan maksimum. Hasil tersebut kemudian digunakan untuk mencari waktu tempuh segmen dipercepat. Karena besar percepatan dari kondisi "dipercepat" dan "diperlambat" sama maka nilai jarak dan waktu tempuh bernilai sama. Waktu tempuh elevator selama melaju dengan kecepatan konstan dapat dicari dengan informasi tersebut.
+
+### Solusi
+
+1. Kondisi dipercepat dan diperlambat
+
+- Konversi kecepatan
+
+```{=tex}
+\begin{align*}
+v &= 300 \frac{\text{ m}}{\text{ menit}} \cdot \frac{1 \text{ menit}}{60 \text{ s}}\\
+v &= 5 \text{ m/s}
+\end{align*}
+```
+
+
+- Jarak tempuh
+
+```{=tex}
+\begin{align*}
+v^2 &= v_0^2 + 2a \Delta x\\
+25 &= 2 \cdot (1) \cdot \Delta x\\
+\Delta x_1 &= \frac{25}{2}\\
+\Delta x_1 &= 12.5 \text{ m} 
+\end{align*}
+```
+
+
+- Waktu tempuh
+
+```{=tex}
+\begin{align*}
+t_1 &= \frac{v - v_0}{a}\\
+t_1 &= \frac{5}{1}\\
+t_1 &= 5 \text{ s}
+\end{align*}
+```
+
+2. Kecepatan konstan
+
+- Jarak tempuh
+
+```{=tex}
+\begin{align*}
+\Delta x_2 &= 190 - 2(12.5)\\
+\Delta x_2 &= 165 \text{ m}
+\end{align*}
+```
+
+- Waktu tempuh
+
+```{=tex}
+\begin{align*}
+t_2 &= \frac{\Delta x_2}{v}\\
+t_2 &= \frac{165}{5}\\
+t_2 &= 33 \text{ s}
+\end{align*}
+```
+
+Dari hasil analisis diketahui jarak yang ditempuh elevator untuk mencapai kecepatan maksimum adalah 12.5 m dan waktu tempuh elevator selama melaju dengan kecepatan konstan adalah 28 detik.
+
+
