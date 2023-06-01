@@ -22,8 +22,8 @@ website:
     left:
       - text: "Beranda"
         href: index.qmd
-      # - text: "Python"
-      #   href: docs/python-programming/index.qmd
+      - text: "Python"
+        href: docs/python-programming/index.qmd
       - text: "Kalkulus"
         href: docs/kalkulus/index.qmd
       - text: "Fisika Dasar"

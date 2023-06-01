@@ -13,7 +13,8 @@
       "posts"
     ],
     "index.qmd": [
-      "docs/*/posts/"
+      "docs/*/posts/",
+      "docs/blog/posts/*qmd"
     ],
     "docs\\blog\\index.qmd": [
       "B3049D40"

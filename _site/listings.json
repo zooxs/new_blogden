@@ -19,17 +19,21 @@
   },
   {
     "listing": "/docs/python-programming/index.html",
-    "items": []
+    "items": [
+      "/docs/python-programming/posts/post-01/post.html",
+      "/docs/python-programming/posts/post-06/post.html",
+      "/docs/python-programming/posts/post-08/post.html",
+      "/docs/python-programming/posts/post-07/post.html",
+      "/docs/python-programming/posts/post-03/post.html",
+      "/docs/python-programming/posts/post-04/post.html",
+      "/docs/python-programming/posts/post-05/post.html",
+      "/docs/python-programming/posts/post-02/post.html",
+      "/docs/python-programming/posts/post-09/post.html"
+    ]
   },
   {
     "listing": "/index.html",
-    "items": [
-      "/docs/fisika-dasar/posts/kinematike-1d/soal-no-01.html",
-      "/docs/fisika-dasar/posts/kinematike-1d/soal-no-02.html",
-      "/docs/fisika-dasar/posts/kinematike-1d/soal-no-03.html",
-      "/docs/fisika-dasar/posts/kinematike-1d/soal-no-04.html",
-      "/docs/kalkulus/posts/fungsi/pengenalan-fungsi.html"
-    ]
+    "items": []
   },
   {
     "listing": "/docs/blog/index.html",

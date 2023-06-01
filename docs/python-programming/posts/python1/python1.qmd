@@ -1,9 +1,0 @@
----
-title: "Tes file python"
-subtitle: "tes file python: subtitle"
-draft: true
----
-
-# header 1
-
-## header 2

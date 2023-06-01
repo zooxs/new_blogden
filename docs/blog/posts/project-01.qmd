@@ -1,0 +1,12 @@
+---
+title: "Pemanfaatan Python Pandas dalam Mengekstrak Data BPS"
+author: "Pandu Mulya Muhammad Syah"
+toc: true
+draft: true
+---
+
+# Python Pandas
+
+# Data Badan Pusat Statistik (BPS)
+
+# Ekstraksi Data

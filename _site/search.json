@@ -39,14 +39,14 @@
     "href": "docs/python-programming/index.html",
     "title": "Python Programming",
     "section": "",
-    "text": "Tidak ada item yang cocok"
+    "text": "Bahasa Python - Alasannya Layak untuk Dipelajari\n\n\n\n\n\n\n\n\n\n12 Agu 2022\n\n\nPandu Mulya Muhammad Syah\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nFilter Data Menggunakan Pandas\n\n\n\n\n\n\n\n\n\n25 Sep 2022\n\n\nPandu Mulya Muhammad Syah\n\n\n2 min\n\n\n\n\n\n\n  \n\n\n\n\nMembuat, Membaca dan Mengedit File Menggunakan Python\n\n\n\n\n\n\n\n\n\n5 Okt 2022\n\n\nPandu Mulya Muhammad Syah\n\n\n3 min\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPemanfaatan I/O Sederhana pada Python\n\n\n\n\n\n\n\n\n\n30 Sep 2022\n\n\nPandu Mulya Muhammad Syah\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nPengenalan Dasar-dasar Pandas\n\n\n\n\n\n\n\n\n\n24 Sep 2022\n\n\nPandu Mulya Muhammad Syah\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPengenalan Pandas DataFrame\n\n\n\n\n\n\n\n\n\n24 Sep 2022\n\n\nPandu Mulya Muhammad Syah\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPengolahan Data Menggunakan Pandas - Part 1\n\n\n\n\n\n\n\n\n\n24 Sep 2022\n\n\nPandu Mulya Muhammad Syah\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nPython Environtmen - Media Utama dalam Pengembangan Program Python\n\n\n\n\n\n\n\n\n\n19 Agu 2022\n\n\nPandu Mulya Muhammad Syah\n\n\n2 min\n\n\n\n\n\n\n  \n\n\n\n\nRangkuman Pengolahan Data Tipe String Menggunakan Python\n\n\n\n\n\n\n\n\n\n21 Okt 2022\n\n\nPandu Mulya Muhammad Syah\n\n\n2 min\n\n\n\n\n\n\nTidak ada item yang cocok"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "BlogDen",
     "section": "",
-    "text": "Diurutkan oleh\n       Bawaan\n         \n          Tanggal - Terlama\n        \n         \n          Tanggal - Terbaru\n        \n         \n          Judul\n        \n         \n          Penulis\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nTanggal\n\n\nJudul\n\n\nPenulis\n\n\nWaktu Baca\n\n\n\n\n\n\n\n\n\n18 Mei 2023\n\n\nPembahasan Soal Kinematika 1D - 01\n\n\nPandu Mulya Muhammad Syah\n\n\n0 min\n\n\n\n\n\n\n\n19 Mei 2023\n\n\nPembahasan Soal Kinematika 1D - 02\n\n\nPandu Mulya Muhammad Syah\n\n\n0 min\n\n\n\n\n\n\n\n21 Mei 2023\n\n\nPembahasan Soal Kinematika 1D - 03\n\n\nPandu Mulya Muhammad Syah\n\n\n1 min\n\n\n\n\n\n\n\n23 Mei 2023\n\n\nPembahasan Soal Kinematika 1D - 04\n\n\nPandu Mulya Muhammad Syah\n\n\n0 min\n\n\n\n\n\n\n\n4 Mar 2023\n\n\nPengenalan Fungsi\n\n\nPandu Mulya Muhammad Syah\n\n\n2 min\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTidak ada item yang cocok"
+    "text": "Tidak ada item yang cocok"
   },
   {
     "objectID": "docs/blog/index.html",
@@ -173,5 +173,264 @@
     "title": "Pembahasan Soal Kinematika 1D - 07",
     "section": "Soal",
     "text": "Soal\nSebuah elevator dapat berpindah sejauh 190 m dan memiliki kecepatan maksimum 300 m/menit. Elevator tersebut bergerak dari keadaan diam dan kembali ke kondisi diam dengan percepatan dan perlambatan 1 m/s2. Tentukan jarak yang ditempuh elevator untuk mencapai kecepatan maksimum dari kondisi diam dan berapa lama elevator menempuh jarak 190 m tersebut.\n\n\n\nIlustrasi Permasalahan\n\n\n\nAnalisis\nElevator pada permasalahan di atas mengikuti pola dipercepat - kecepatan konstan - diperlambat. Perlu dilakukan analisis untuk masing-masing segmen pergerakan. Dari informasi yang tersedia dapat dicari terlebih dahulu jarak tempuh elevator saat mencapai kecepatan maksimum. Hasil tersebut kemudian digunakan untuk mencari waktu tempuh segmen dipercepat. Karena besar percepatan dari kondisi “dipercepat” dan “diperlambat” sama maka nilai jarak dan waktu tempuh bernilai sama. Waktu tempuh elevator selama melaju dengan kecepatan konstan dapat dicari dengan informasi tersebut.\n\n\nSolusi\n\nKondisi dipercepat dan diperlambat\n\n\nKonversi kecepatan\n\n\\[\\begin{align*}\nv &= 300 \\frac{\\text{ m}}{\\text{ menit}} \\cdot \\frac{1 \\text{ menit}}{60 \\text{ s}}\\\\\nv &= 5 \\text{ m/s}\n\\end{align*}\\]\n\nJarak tempuh\n\n\\[\\begin{align*}\nv^2 &= v_0^2 + 2a \\Delta x\\\\\n25 &= 2 \\cdot (1) \\cdot \\Delta x\\\\\n\\Delta x_1 &= \\frac{25}{2}\\\\\n\\Delta x_1 &= 12.5 \\text{ m}\n\\end{align*}\\]\n\nWaktu tempuh\n\n\\[\\begin{align*}\nt_1 &= \\frac{v - v_0}{a}\\\\\nt_1 &= \\frac{5}{1}\\\\\nt_1 &= 5 \\text{ s}\n\\end{align*}\\]\n\nKecepatan konstan\n\n\nJarak tempuh\n\n\\[\\begin{align*}\n\\Delta x_2 &= 190 - 2(12.5)\\\\\n\\Delta x_2 &= 165 \\text{ m}\n\\end{align*}\\]\n\nWaktu tempuh\n\n\\[\\begin{align*}\nt_2 &= \\frac{\\Delta x_2}{v}\\\\\nt_2 &= \\frac{165}{5}\\\\\nt_2 &= 33 \\text{ s}\n\\end{align*}\\]\nDari hasil analisis diketahui jarak yang ditempuh elevator untuk mencapai kecepatan maksimum adalah 12.5 m dan waktu tempuh elevator selama melaju dengan kecepatan konstan adalah 28 detik."
+  },
+  {
+    "objectID": "docs/python-programming/posts/post-03/post.html#ukuran-dataset",
+    "href": "docs/python-programming/posts/post-03/post.html#ukuran-dataset",
+    "title": "Pengenalan Dasar-dasar Pandas",
+    "section": "Ukuran dataset",
+    "text": "Ukuran dataset\nUkuran dataset (jumlah baris dan kolom) dapat diketahui dengan atribut .shape.\n\ndf.shape\n\n(891, 15)"
+  },
+  {
+    "objectID": "docs/python-programming/posts/post-03/post.html#akses-nama-kolom",
+    "href": "docs/python-programming/posts/post-03/post.html#akses-nama-kolom",
+    "title": "Pengenalan Dasar-dasar Pandas",
+    "section": "Akses nama kolom",
+    "text": "Akses nama kolom\nNama kolom yang terdapat dalam dataset dapat diaksek menggunakan atribut .columns.\n\ndf.columns\n\nIndex(['survived', 'pclass', 'sex', 'age', 'sibsp', 'parch', 'fare',\n       'embarked', 'class', 'who', 'adult_male', 'deck', 'embark_town',\n       'alive', 'alone'],\n      dtype='object')"
+  },
+  {
+    "objectID": "docs/python-programming/posts/post-03/post.html#tipe-data-kolom",
+    "href": "docs/python-programming/posts/post-03/post.html#tipe-data-kolom",
+    "title": "Pengenalan Dasar-dasar Pandas",
+    "section": "Tipe data kolom",
+    "text": "Tipe data kolom\nTipe data setiap kolom dapat diketahui menggunakan atribut .dtypes pada dataset.\n\ndf.dtypes\n\nsurvived          int64\npclass            int64\nsex              object\nage             float64\nsibsp             int64\nparch             int64\nfare            float64\nembarked         object\nclass          category\nwho              object\nadult_male         bool\ndeck           category\nembark_town      object\nalive            object\nalone              bool\ndtype: object\n\n\nDari hasil di atas terlihat beberapa tipe data seperti int64 untuk bilangan bulat, float64 untuk bilangan desimal, bool untuk data True atau False, object untuk karakter atau kalimat dan category untuk kategori data."
+  },
+  {
+    "objectID": "docs/python-programming/posts/post-03/post.html#mengakses-data-pada-kolom-tertentu",
+    "href": "docs/python-programming/posts/post-03/post.html#mengakses-data-pada-kolom-tertentu",
+    "title": "Pengenalan Dasar-dasar Pandas",
+    "section": "Mengakses data pada kolom tertentu",
+    "text": "Mengakses data pada kolom tertentu\nTerdapat dua cara umum untuk memanggil data pada kolom tertentu, menggunakan nama kolom sebagai indeks dan menggunakan nama kolom sebagai atribut.\n\nNama kolom sebagai indeks\n\n\ndf['age'].head()\n\n0    22.0\n1    38.0\n2    26.0\n3    35.0\n4    35.0\nName: age, dtype: float64\n\n\n\nNama kolom sebagai atribut\n\n\ndf.age.head()\n\n0    22.0\n1    38.0\n2    26.0\n3    35.0\n4    35.0\nName: age, dtype: float64\n\n\nUntuk memanggil data pada beberapa kolom, cara paling mudah adalah dengan menggunakan list (daftar) yang berisi beberapa nama kolom.\n\ndf[['survived', 'age']].head()\n\n\n\n\n\n  \n    \n      \n      survived\n      age\n    \n  \n  \n    \n      0\n      0\n      22.0\n    \n    \n      1\n      1\n      38.0\n    \n    \n      2\n      1\n      26.0\n    \n    \n      3\n      1\n      35.0\n    \n    \n      4\n      0\n      35.0"
+  },
+  {
+    "objectID": "docs/python-programming/posts/post-03/post.html#nilai-minimum-dan-maksimum",
+    "href": "docs/python-programming/posts/post-03/post.html#nilai-minimum-dan-maksimum",
+    "title": "Pengenalan Dasar-dasar Pandas",
+    "section": "Nilai minimum dan maksimum",
+    "text": "Nilai minimum dan maksimum\nKedua nilai tersebut dapat ditentukan dengan metode .min() dan .max(). Diambil data pada kolom age sebagai contoh pada bagian ini.\n\nprint(f'Nilai min: {df.age.min()}')\nprint(f'Nilai max: {df.age.max()}')\n\nNilai min: 0.42\nNilai max: 80.0"
+  },
+  {
+    "objectID": "docs/python-programming/posts/post-03/post.html#nilai-rata-rata-dan-standar-deviasi",
+    "href": "docs/python-programming/posts/post-03/post.html#nilai-rata-rata-dan-standar-deviasi",
+    "title": "Pengenalan Dasar-dasar Pandas",
+    "section": "Nilai rata-rata dan standar deviasi",
+    "text": "Nilai rata-rata dan standar deviasi\nNilai tersebut dapat ditentukan dengan metode .mean() dan .std().\n\nprint(f'Nilai mean: {df.age.mean()}')\nprint(f'Nilai std: {df.age.std()}')\n\nNilai mean: 29.69911764705882\nNilai std: 14.526497332334042"
+  },
+  {
+    "objectID": "docs/python-programming/posts/post-03/post.html#nilai-kuantil",
+    "href": "docs/python-programming/posts/post-03/post.html#nilai-kuantil",
+    "title": "Pengenalan Dasar-dasar Pandas",
+    "section": "Nilai kuantil",
+    "text": "Nilai kuantil\nNilai kuantil dapat ditentukan dengan metode .quantile(). Q10, Q20 maupun Q30 bisa diketahui dengan memasukkan parameter pada metode .quantile(.10), .quantile(.20) dan .quantile(.30) untuk masing-masing nilai kuantil yang ingin dicari.\n\nprint(f'Nilai Q10: {df.age.quantile(.10)}')\nprint(f'Nilai Q20: {df.age.quantile(.20)}')\nprint(f'Nilai Q30: {df.age.quantile(.30)}')\n\nNilai Q10: 14.0\nNilai Q20: 19.0\nNilai Q30: 22.0"
+  },
+  {
+    "objectID": "docs/python-programming/posts/post-04/post.html#membuat-dataframe-dari-dict",
+    "href": "docs/python-programming/posts/post-04/post.html#membuat-dataframe-dari-dict",
+    "title": "Pengenalan Pandas DataFrame",
+    "section": "Membuat DataFrame dari dict",
+    "text": "Membuat DataFrame dari dict\n\nfrom pandas import DataFrame\nd = {\n    'nama': ['Ani', 'Budi', 'Cindy', 'Doni', 'Eka'],\n    'umur': [20, 22, 19, 23, 21],\n    'gender': ['P', 'L', 'P', 'L', 'L']\n}\n\ndf = DataFrame(d)\ndf\n\n\n\n\n\n  \n    \n      \n      nama\n      umur\n      gender\n    \n  \n  \n    \n      0\n      Ani\n      20\n      P\n    \n    \n      1\n      Budi\n      22\n      L\n    \n    \n      2\n      Cindy\n      19\n      P\n    \n    \n      3\n      Doni\n      23\n      L\n    \n    \n      4\n      Eka\n      21\n      L\n    \n  \n\n\n\n\nIndeks atau indikasi baris pada tabel di atas dapat dirubah dengan menambahkan parameter index yang berisi list.\n\nbaris = ['satu', 'dua', 'tiga', 'empat', 'lima']\ndf = DataFrame(d, index=baris)\ndf\n\n\n\n\n\n  \n    \n      \n      nama\n      umur\n      gender\n    \n  \n  \n    \n      satu\n      Ani\n      20\n      P\n    \n    \n      dua\n      Budi\n      22\n      L\n    \n    \n      tiga\n      Cindy\n      19\n      P\n    \n    \n      empat\n      Doni\n      23\n      L\n    \n    \n      lima\n      Eka\n      21\n      L"
+  },
+  {
+    "objectID": "docs/python-programming/posts/post-04/post.html#membuat-dataframe-dari-numpy-ndarray",
+    "href": "docs/python-programming/posts/post-04/post.html#membuat-dataframe-dari-numpy-ndarray",
+    "title": "Pengenalan Pandas DataFrame",
+    "section": "Membuat DataFrame dari numpy ndarray",
+    "text": "Membuat DataFrame dari numpy ndarray\n\nfrom numpy import array\ndata = [\n    ['Ani', 'Budi', 'Cindy', 'Doni', 'Eka'],\n    [20, 22, 19, 23, 21],\n    ['P', 'L', 'P', 'L', 'L']\n]\ndf = DataFrame(array(data))\ndf\n\n\n\n\n\n  \n    \n      \n      0\n      1\n      2\n      3\n      4\n    \n  \n  \n    \n      0\n      Ani\n      Budi\n      Cindy\n      Doni\n      Eka\n    \n    \n      1\n      20\n      22\n      19\n      23\n      21\n    \n    \n      2\n      P\n      L\n      P\n      L\n      L\n    \n  \n\n\n\n\nBaris dan kolom pada tabel di atas disesuaikan dengan baris dan kolom pada numpy ndarray di mana setiap list yang berada di dalam data merupakan baris sedangkan nilai pada masing-masing list tersebut merupakan kolom. Untuk mengubah tampilan tabel tersebut sesuai dengan tabel pada tabel sebelumnya, atribut transpose dapat digunakan (menjadikan baris sebagai kolom, begitu juga sebaliknya).\n\ndf = df.T\ndf.columns = ['nama', 'umur', 'gender']\ndf.index = baris\ndf\n\n\n\n\n\n  \n    \n      \n      nama\n      umur\n      gender\n    \n  \n  \n    \n      satu\n      Ani\n      20\n      P\n    \n    \n      dua\n      Budi\n      22\n      L\n    \n    \n      tiga\n      Cindy\n      19\n      P\n    \n    \n      empat\n      Doni\n      23\n      L\n    \n    \n      lima\n      Eka\n      21\n      L\n    \n  \n\n\n\n\nBaris dan kolom pada DataFrame dapat diubah setelah dibuat dengan menetapakan atribut .columns dan .index dengan nilai baru yang ingin digunakan. Nilai baru tersebut biasa dalam bentuk tipe data list."
+  },
+  {
+    "objectID": "docs/python-programming/posts/post-05/post.html#pembacaan-data",
+    "href": "docs/python-programming/posts/post-05/post.html#pembacaan-data",
+    "title": "Pengolahan Data Menggunakan Pandas - Part 1",
+    "section": "Pembacaan data",
+    "text": "Pembacaan data\nData dalam bentuk file seperti csv, json maupun xlsx dapat dibaca menggunakan Pandas menggunakan metode yang tersedia. Data yang digunakan berada dalam format xlsx dan memiliki nama data_anggota.xlsx, untuk membaca file tersebut digunakan metode read_excel().\n{bash, echo=FALSE} ls *xlsx\n\nfrom pandas import read_excel\ndf = read_excel('data_anggota.xlsx')\ndf\n\n\n\n\n\n  \n    \n      \n      nama_depan\n      nama_belakang\n    \n  \n  \n    \n      0\n      Ani\n      Lestari\n    \n    \n      1\n      Budi\n      Hermawan\n    \n    \n      2\n      Cindy\n      Amara\n    \n    \n      3\n      Dodi\n      Mulyanto\n    \n    \n      4\n      Eka\n      Saputra"
+  },
+  {
+    "objectID": "docs/python-programming/posts/post-05/post.html#menambah-kolom",
+    "href": "docs/python-programming/posts/post-05/post.html#menambah-kolom",
+    "title": "Pengolahan Data Menggunakan Pandas - Part 1",
+    "section": "Menambah kolom",
+    "text": "Menambah kolom\nPada DataFrame di atas akan ditambahkan kolom baru yang berisi nama lengkap dari masing-masing anggota. Karena tipe data pada kolom nama depan dan belakang sama (str atau object) langkah pemrosesan tipe data str dapat dilakukan seperti di bawah ini.\n\ndf['nama_lengkap'] = df.nama_depan + ' ' + df.nama_belakang\ndf['email'] = df.nama_depan.str.lower() + '.' + df.nama_belakang.str.lower() + '@mail.com'\ndf\n\n\n\n\n\n  \n    \n      \n      nama_depan\n      nama_belakang\n      nama_lengkap\n      email\n    \n  \n  \n    \n      0\n      Ani\n      Lestari\n      Ani Lestari\n      ani.lestari@mail.com\n    \n    \n      1\n      Budi\n      Hermawan\n      Budi Hermawan\n      budi.hermawan@mail.com\n    \n    \n      2\n      Cindy\n      Amara\n      Cindy Amara\n      cindy.amara@mail.com\n    \n    \n      3\n      Dodi\n      Mulyanto\n      Dodi Mulyanto\n      dodi.mulyanto@mail.com\n    \n    \n      4\n      Eka\n      Saputra\n      Eka Saputra\n      eka.saputra@mail.com\n    \n  \n\n\n\n\nSelain nama lengkap, kolom email juga dapat ditambahkan. Kolom email memiliki format penawaan nama_depan.nama_belakang@mail.com, metode str.lower() pada contoh di atas berfungsi untuk membuat setiap karakter menjadi huruf kecil."
+  },
+  {
+    "objectID": "docs/python-programming/posts/post-05/post.html#format-csv",
+    "href": "docs/python-programming/posts/post-05/post.html#format-csv",
+    "title": "Pengolahan Data Menggunakan Pandas - Part 1",
+    "section": "Format CSV",
+    "text": "Format CSV\n\ndf.to_csv('hasil_pengolahan.csv', index=False)"
+  },
+  {
+    "objectID": "docs/python-programming/posts/post-05/post.html#format-xlsx",
+    "href": "docs/python-programming/posts/post-05/post.html#format-xlsx",
+    "title": "Pengolahan Data Menggunakan Pandas - Part 1",
+    "section": "Format XLSX",
+    "text": "Format XLSX\n\ndf.to_excel('hasil_pengolahan.xlsx', index=False)\n\n{bash, echo=FALSE} ls hasil_pengolahan*"
+  },
+  {
+    "objectID": "docs/python-programming/posts/post-06/post.html",
+    "href": "docs/python-programming/posts/post-06/post.html",
+    "title": "Filter Data Menggunakan Pandas",
+    "section": "",
+    "text": "Penyaringan (filter) data merupakan salah satu langkah yang sering dilakukan dalam pemrosesan suatu data. Pandas memiliki beberapa cara dalam melakukan penyaringan di antaranya adalah logical_operator, metode loc, iloc dan query. Data yang diguanakan pada contoh pembahasan di bawah ini merupakan data dummy berupa nilai hasil ulangan dari beberapa mata pelajaran."
+  },
+  {
+    "objectID": "docs/python-programming/posts/post-06/post.html#menggunakan-logical-operator",
+    "href": "docs/python-programming/posts/post-06/post.html#menggunakan-logical-operator",
+    "title": "Filter Data Menggunakan Pandas",
+    "section": "Menggunakan logical operator",
+    "text": "Menggunakan logical operator\nLangkah di bawah ini menampilkan nama siswa yang memiliki nilai ulangan matematika di atas 50. Logical operator dapat juga dituliskan df[df['matematika'] > 50].\n\ndf[df.matematika > 50]\n\n\n\n\n\n  \n    \n      \n      nama\n      matematika\n      fisika\n      kimia\n    \n  \n  \n    \n      0\n      Ani\n      64\n      75\n      54\n    \n    \n      1\n      Budi\n      96\n      85\n      58\n    \n    \n      2\n      Cindy\n      67\n      71\n      91\n    \n    \n      5\n      Eko\n      63\n      98\n      96\n    \n    \n      8\n      Gisel\n      61\n      70\n      77\n    \n    \n      9\n      Lestari\n      79\n      52\n      39\n    \n    \n      10\n      Hermawan\n      76\n      79\n      75\n    \n    \n      12\n      Mulyanto\n      58\n      77\n      82\n    \n    \n      13\n      Saskia\n      96\n      64\n      43\n    \n  \n\n\n\n\nPenyaringan dengan cara ini juga dapat diaplikasikan pada beberapa kondisi operator. Langkah di bawah ini menampilkan siswa yang memiliki nilai matematika di atas 60 dan nilai fisika di atas 55. Operator ganda tersebut dapat digunakan dengan format [(operator_1) & (operator_2)], tanda & (and) berfungsi untuk mengharuskan kedua kondisi operator terpenuhi. Untuk kondisi yang terpenuhi hanya salah satu saja dapat digunakan tanda | atau or.\n\ndf[(df.matematika > 60) & (df.fisika > 55)]\n\n\n\n\n\n  \n    \n      \n      nama\n      matematika\n      fisika\n      kimia\n    \n  \n  \n    \n      0\n      Ani\n      64\n      75\n      54\n    \n    \n      1\n      Budi\n      96\n      85\n      58\n    \n    \n      2\n      Cindy\n      67\n      71\n      91\n    \n    \n      5\n      Eko\n      63\n      98\n      96\n    \n    \n      8\n      Gisel\n      61\n      70\n      77\n    \n    \n      10\n      Hermawan\n      76\n      79\n      75\n    \n    \n      13\n      Saskia\n      96\n      64\n      43\n    \n  \n\n\n\n\n\ndf[(df.matematika > 60) | (df.fisika > 55)]\n\n\n\n\n\n  \n    \n      \n      nama\n      matematika\n      fisika\n      kimia\n    \n  \n  \n    \n      0\n      Ani\n      64\n      75\n      54\n    \n    \n      1\n      Budi\n      96\n      85\n      58\n    \n    \n      2\n      Cindy\n      67\n      71\n      91\n    \n    \n      3\n      Dodi\n      35\n      83\n      45\n    \n    \n      4\n      Eka\n      48\n      77\n      64\n    \n    \n      5\n      Eko\n      63\n      98\n      96\n    \n    \n      8\n      Gisel\n      61\n      70\n      77\n    \n    \n      9\n      Lestari\n      79\n      52\n      39\n    \n    \n      10\n      Hermawan\n      76\n      79\n      75\n    \n    \n      11\n      Amara\n      36\n      73\n      54\n    \n    \n      12\n      Mulyanto\n      58\n      77\n      82\n    \n    \n      13\n      Saskia\n      96\n      64\n      43\n    \n  \n\n\n\n\nUntuk menampilkan data dengan nama siswa yang memiliki kesamaan tertentu dapat menggunakan langkah di bawah ini. Hasil pada langkah ini menampilkan nama siswa yang berawalan E.\n\ndf[df.nama.str.startswith('E')]\n\n\n\n\n\n  \n    \n      \n      nama\n      matematika\n      fisika\n      kimia\n    \n  \n  \n    \n      4\n      Eka\n      48\n      77\n      64\n    \n    \n      5\n      Eko\n      63\n      98\n      96\n    \n    \n      6\n      Endang\n      45\n      45\n      73"
+  },
+  {
+    "objectID": "docs/python-programming/posts/post-06/post.html#menggunakan-loc-dan-iloc",
+    "href": "docs/python-programming/posts/post-06/post.html#menggunakan-loc-dan-iloc",
+    "title": "Filter Data Menggunakan Pandas",
+    "section": "Menggunakan loc dan iloc",
+    "text": "Menggunakan loc dan iloc\nMetode loc dan iloc pada Pandas berfungsi memfilter data berdasarkan baris dan kolom tertentu. Perbedaan mendasar pada kedua metode ini terletak pada parameter kolom di mana loc menggunakan label seperti nama kolom sedangkan iloc menggunakan indeks berupa nomor. Untuk parameter baris tetap menggunakan indeks berupa angka selama indeks tersebut tidak dirubah. Secara umum format parameter baris dan kolom pada kedua metode ini adalah [awal_baris:akhir_baris, awal_kolom:akhir_kolom].\nLangkah di bawah ini menampilkan 5 baris pertama data dengan kolom berlabel nama hingga fisika menggunakan metode loc.\n\ndf.loc[:5, 'nama':'fisika']\n\n\n\n\n\n  \n    \n      \n      nama\n      matematika\n      fisika\n    \n  \n  \n    \n      0\n      Ani\n      64\n      75\n    \n    \n      1\n      Budi\n      96\n      85\n    \n    \n      2\n      Cindy\n      67\n      71\n    \n    \n      3\n      Dodi\n      35\n      83\n    \n    \n      4\n      Eka\n      48\n      77\n    \n    \n      5\n      Eko\n      63\n      98\n    \n  \n\n\n\n\nHasil yang sama dapat dilakukan dengan menggunakan list pada parameter kolom. Urutan elemen pada list tersebut tidak harus sama dengan urutan kolom pada data asalkan elemen tersebut berada di dalam kolom.\n\ndf.loc[:5, ['nama', 'matematika', 'fisika']]\n\n\n\n\n\n  \n    \n      \n      nama\n      matematika\n      fisika\n    \n  \n  \n    \n      0\n      Ani\n      64\n      75\n    \n    \n      1\n      Budi\n      96\n      85\n    \n    \n      2\n      Cindy\n      67\n      71\n    \n    \n      3\n      Dodi\n      35\n      83\n    \n    \n      4\n      Eka\n      48\n      77\n    \n    \n      5\n      Eko\n      63\n      98\n    \n  \n\n\n\n\nLangkah di bawah ini menampilkan 5 baris pertam dan 3 kolom pertama pada data menggunakan metode iloc. Perlu diketahui, baik parameter baris maupun kolom parameter awalnya tidak perlu diisi karena sudah mengindikasikan titik awal dari masing-masing parameter.\n\ndf.iloc[:5, :3]\n\n\n\n\n\n  \n    \n      \n      nama\n      matematika\n      fisika\n    \n  \n  \n    \n      0\n      Ani\n      64\n      75\n    \n    \n      1\n      Budi\n      96\n      85\n    \n    \n      2\n      Cindy\n      67\n      71\n    \n    \n      3\n      Dodi\n      35\n      83\n    \n    \n      4\n      Eka\n      48\n      77\n    \n  \n\n\n\n\nUntuk menampilkan kolom ke-1 dan kolom ke-3 dari baris 3 hingga ke-7 dapat menggunakan langkah di bawah ini. Indeks berupa angka dimulai dari 0, sehingga kolom ke-1 dan kolom ke-3 dapat direpresentasikan sebagai indeks 0 dan 2.\n\ndf.iloc[3:7, [0,2]]\n\n\n\n\n\n  \n    \n      \n      nama\n      fisika\n    \n  \n  \n    \n      3\n      Dodi\n      83\n    \n    \n      4\n      Eka\n      77\n    \n    \n      5\n      Eko\n      98\n    \n    \n      6\n      Endang\n      45"
+  },
+  {
+    "objectID": "docs/python-programming/posts/post-06/post.html#menggunakan-query",
+    "href": "docs/python-programming/posts/post-06/post.html#menggunakan-query",
+    "title": "Filter Data Menggunakan Pandas",
+    "section": "Menggunakan query",
+    "text": "Menggunakan query\nMetode query menggunakan parameter dalam bentuk str sehingga lebih memudahkan dalam memfilter data. Langkah di bawah menampilkan siswa yang memiliki nilia matematika dan fisika di atas 60 dan 75 secara bersamaan.\n\ndf.query('matematika > 60 and fisika > 75')\n\n\n\n\n\n  \n    \n      \n      nama\n      matematika\n      fisika\n      kimia\n    \n  \n  \n    \n      1\n      Budi\n      96\n      85\n      58\n    \n    \n      5\n      Eko\n      63\n      98\n      96\n    \n    \n      10\n      Hermawan\n      76\n      79\n      75"
+  },
+  {
+    "objectID": "docs/python-programming/posts/post-07/post.html#pemanfaatan-fungsi-print",
+    "href": "docs/python-programming/posts/post-07/post.html#pemanfaatan-fungsi-print",
+    "title": "Pemanfaatan I/O Sederhana pada Python",
+    "section": "Pemanfaatan fungsi print()",
+    "text": "Pemanfaatan fungsi print()\n\nOutput berupa str\n\nprint('Halo, nama saya Budi Budiman\\nSalam Kenal :)')\n\nHalo, nama saya Budi Budiman\nSalam Kenal :)\n\n\n\n\nOutput berupa int\n\nprint(1000 + 3*100)\n\n1300\n\n\n\n\nOutput berupa float\n\nprint((99)**0.5)\n\n9.9498743710662"
+  },
+  {
+    "objectID": "docs/python-programming/posts/post-07/post.html#pemanfaatan-fungsi-input",
+    "href": "docs/python-programming/posts/post-07/post.html#pemanfaatan-fungsi-input",
+    "title": "Pemanfaatan I/O Sederhana pada Python",
+    "section": "Pemanfaatan fungsi input()",
+    "text": "Pemanfaatan fungsi input()\n\nInput data tipe str\n\nnama = input('Masukkan nama: ')\nprint(nama)\nprint(f'Halo nama saya {nama}\\nSalam kenal :)')\n\n\n\nPandu\nHalo nama saya Pandu\nSalam kenal :)\n\n\n\n\nInput data tipe int\n\nbil_bulat = input('Masukkan bil. bulat: ')\nprint(bil_bulat)\nprint(int(bil_bulat)*5)\n\n\n\n14\n70\n\n\n\n\nInput data tipe float\n\nbil_desimal = input('Masukkan bil. desimal: ')\nprint(bil_desimal)\nprint(float(bil_desimal)*7)\n\n\n\n12.34\n86.38"
+  },
+  {
+    "objectID": "docs/python-programming/posts/post-08/post.html#membuat-writing-file",
+    "href": "docs/python-programming/posts/post-08/post.html#membuat-writing-file",
+    "title": "Membuat, Membaca dan Mengedit File Menggunakan Python",
+    "section": "Membuat (writing) file",
+    "text": "Membuat (writing) file\n\nwith open('simpel.txt', 'w') as teks:\n   teks.write('Baris satu\\n')\n   teks.write('Baris dua\\n')\n\nProgram di atas ditujukan untuk membuat file dengan nama simpel.txt menggunakan fungsi open(). Statmen with digunakan untuk mengimplementasikan context manager pada Python. Terlihat pada kode di atas mode w digunakan untuk menulis file baru. Metode write() digunakan untuk menulis isi pada file tersebut."
+  },
+  {
+    "objectID": "docs/python-programming/posts/post-08/post.html#membaca-reading-file",
+    "href": "docs/python-programming/posts/post-08/post.html#membaca-reading-file",
+    "title": "Membuat, Membaca dan Mengedit File Menggunakan Python",
+    "section": "Membaca (reading) file",
+    "text": "Membaca (reading) file\n\nwith open('simpel.txt', 'r') as teks:\n   print(teks.read())\n\nBaris satu\nBaris dua\n\n\n\nUntuk membaca suatu file dapat menggunakan statmen with yang sama dengan sedikit perubahan pada mode r. Teks pada file tersebut dapat diakses menggunakan metode read()."
+  },
+  {
+    "objectID": "docs/python-programming/posts/post-08/post.html#menambahkan-isi-file",
+    "href": "docs/python-programming/posts/post-08/post.html#menambahkan-isi-file",
+    "title": "Membuat, Membaca dan Mengedit File Menggunakan Python",
+    "section": "Menambahkan isi file",
+    "text": "Menambahkan isi file\n\nwith open('simpel.txt', 'a') as teks:\n   teks.write('Baris tiga\\n')\n\nPenambahan isi file dapat dilakukan dengan menggunakan mode a dan menuliskan baris baru melalui metode .write().\n\nwith open('simpel.txt', 'r') as teks:\n   print(teks.read())\n\nBaris satu\nBaris dua\nBaris tiga"
+  },
+  {
+    "objectID": "docs/python-programming/posts/post-08/post.html#mengedit-isi-file",
+    "href": "docs/python-programming/posts/post-08/post.html#mengedit-isi-file",
+    "title": "Membuat, Membaca dan Mengedit File Menggunakan Python",
+    "section": "Mengedit isi file",
+    "text": "Mengedit isi file\n\nwith open('simpel.txt', 'r') as fl:\n   line = fl.readlines()\nline[1] = line[1].upper()\nbaris_baru = ''.join(line)\n\nwith open('simpel.txt', 'w') as fl:\n   fl.write(baris_baru)\n\nwith open('simpel.txt', 'r') as fl:\n   print(fl.read())\n\nBaris satu\nBARIS DUA\nBaris tiga\n\n\n\nUntuk mengedit isi file pada baris tertentu dapat menggunakan pendektan di atas.\n\nMembaca file, kemudian membuat variabel line yang berisi isi file dalam bentuk list melalui metode readlines().\nMembuat baris kedua pada file menjadi huruf kapital. Langkah ini dapat dilakukan dengan mengganti nilai indeks kedua pada list (bernilai 1 karena indek pada list dimulai dari 0) menggunakan metode upper().\nMembuat file yang sama dengan mengganti isinya dengan nilai yang baru menggunakan variabel baris_baru."
+  },
+  {
+    "objectID": "docs/python-programming/posts/post-09/post.html#metode-slicing",
+    "href": "docs/python-programming/posts/post-09/post.html#metode-slicing",
+    "title": "Rangkuman Pengolahan Data Tipe String Menggunakan Python",
+    "section": "Metode slicing",
+    "text": "Metode slicing\nSetiap karakter (huruf, angka, tanda baca, atau simbol) pada string memiliki indeks atau posisi masing-masing. Indeks ini dimulai dari 0, 1, 2 hingga n - 1 (n merupakan panjang string). Untuk menampilkan nama depan dari variabel nama di atas dapat menggunakan pendekatan seperti di bawah ini.\n\nnama[0:4]\n\n'Budi'\n\n\nSlicing dapat dilakukan dengan memasukkan indeks awal hingga akhir yang diinginkan [indeks_awal:indeks_akhir]. Karakter pada indeks akhir selalu tidak dimasukkan sehingga perlu menambah satu indeks setelahnya. Jadi jika menggunakan angka 3 pada indeks akhir, hasil yang didapat akan menampilkan Bud. Indeks nol (0) biasa tidak ditulis, sehingga contoh di atas dapat juga ditulis menjadi nama[:4]."
+  },
+  {
+    "objectID": "docs/python-programming/posts/post-09/post.html#metode-split",
+    "href": "docs/python-programming/posts/post-09/post.html#metode-split",
+    "title": "Rangkuman Pengolahan Data Tipe String Menggunakan Python",
+    "section": "Metode split()",
+    "text": "Metode split()\nHasil yang serupa juga didapatkan dengan menggunakan metode split(delimiter), di mana pendekatan ini memisahkan string berdasarkan karakter yang digunakan (delimiter yang umumn digunakan , ,, ., - atau _). Luaran dari metode ini adalah objek list.\n\nnama.split(' ')\n\n['Budi', 'Budiman']\n\n\nUntuk menampilkan nama depan saja dapat menggunakan indeks 0.\n\nnama.split(' ')[0]\n\n'Budi'"
+  },
+  {
+    "objectID": "docs/python-programming/posts/post-09/post.html#metode-join",
+    "href": "docs/python-programming/posts/post-09/post.html#metode-join",
+    "title": "Rangkuman Pengolahan Data Tipe String Menggunakan Python",
+    "section": "Metode join()",
+    "text": "Metode join()\nMetode ini berfungsi untuk menggabungkan elemen pada objek list, set atau iterator lainnya menjadi sebuah objek string. Untuk menampilkan nama lengkap dari elemen list di bawah ini dapat menggunakan pendekatan \"sep\".join(list) di mana sep merupakan pembatas yang digunakan untuk mengabungkan setiap objek pada list tersebut. sep yang digunakan adalah spasi () dan dapat berupa karakter lainnya seperti koma (,) atau strip (-).\n\ndaftar_nama = ['budi', 'budiman']\nnama_lengkap = ' '.join(daftar_nama)\nnama_lengkap\n\n'budi budiman'"
+  },
+  {
+    "objectID": "docs/python-programming/posts/post-09/post.html#change-case",
+    "href": "docs/python-programming/posts/post-09/post.html#change-case",
+    "title": "Rangkuman Pengolahan Data Tipe String Menggunakan Python",
+    "section": "Change case",
+    "text": "Change case\nPada contoh di atas, variabel nama_lengkap berada dalam bentuk huruf kecil. Untuk menggantinya menjadi penulisan nama yang baku (setiap awal kata menjadi kapital) dapat menggunakan pendekatan di bawah ini.\n\nnama_lengkap.title()\n\n'Budi Budiman'\n\n\nSelain title() terdapat metode change case lainnya seperti capitalize(), upper(), lower() dan swapcase()."
+  },
+  {
+    "objectID": "docs/python-programming/posts/post-09/post.html#metode-format",
+    "href": "docs/python-programming/posts/post-09/post.html#metode-format",
+    "title": "Rangkuman Pengolahan Data Tipe String Menggunakan Python",
+    "section": "Metode format()",
+    "text": "Metode format()\nMetode ini berfungsi untuk mengkustomasi format dari string yang akan dihasilkan.\n\n\"Halo nama saya {0}, umur saya {1} tahun.\".format(nama_lengkap, 22)\n\n'Halo nama saya budi budiman, umur saya 22 tahun.'\n\n\nIndeks 0 dan 1 merujuk pada variabel atau nilai dari nama_lengkap dan 22 secara berurutan. Indeks tersebut dapat disebut sebagai placeholder. Nilai dari placeholder ini dapat diganti menjadi suatu variabel tertentu.\n\n\"Halo nama saya {nama}, umur saya {umur} tahun.\".format(nama=nama_lengkap, umur=22)\n\n'Halo nama saya budi budiman, umur saya 22 tahun.'\n\n\nSelain 2 pendekatan di atas, Python juga menyediakan fitur yang biasa disebut sebagai f-string. Fitur ini biasa digunakan karena dapat menyederhanakan penulisan code.\n\nf\"Halo nama saya {nama_lengkap}, umur saya {22} tahun.\"\n\n'Halo nama saya budi budiman, umur saya 22 tahun.'"
+  },
+  {
+    "objectID": "docs/python-programming/posts/post-01/post.html#pengenalan-python",
+    "href": "docs/python-programming/posts/post-01/post.html#pengenalan-python",
+    "title": "Bahasa Python - Alasannya Layak untuk Dipelajari",
+    "section": "Pengenalan Python",
+    "text": "Pengenalan Python\n\nPython merupakan salah satu bahasa pemrograman yang populer dalam dekade belakangan ini. Bahasa yang digagas oleh Guido Van Rossum pada tahun 1991 ini berfokus pada code readability (keterbacaan program) yang memberikan kemudahan kepada pengguna untuk belajar dan mengembangkannya [@2017Python]. Hal ini didukung karena Python termasuk ke dalam high-level language (memiliki syntax atau aturan penulisan program yang mirip seperti Bahasa Ingris: print, import, for i in range(5), if 3 < 4:..., dll.) dan interpreted language (cenderung lebih fleksibel yang menjadikan pengguna lebih leluasa dalam membuat sebuah program) [@Isaac; @2017Python]."
+  },
+  {
+    "objectID": "docs/python-programming/posts/post-01/post.html#penggunaan-python-dalam-dunia-industri",
+    "href": "docs/python-programming/posts/post-01/post.html#penggunaan-python-dalam-dunia-industri",
+    "title": "Bahasa Python - Alasannya Layak untuk Dipelajari",
+    "section": "Penggunaan Python dalam dunia industri",
+    "text": "Penggunaan Python dalam dunia industri\n Sebagai general purpose programming language, Python banyak digunakan pada berbagai bidang mulai dari data analytics, data visualizazion, game development hingga pengembangan website. Ketersediaan library dalam jumlah yang besar disertai komunitas yang mendukung menjadikan Python banyak diminati oleh programmer. Pada masing-masing bidang terdapat libraries yang digemari pengguna karena memiliki banyak fitur mendukung, di antaranya adalah:\n\nNumpy, Pandas, Matplotlib dan Scikit-learn yang umum digunakan pada data analytics, data visualization serta machine learning dan turunannya.\nPyGame dan Kivy untuk keperluan game development dan apps development.\nDjango, Flask dan Selenium yang umum digunakan untuk keperluan pengembangan webapp dan automasinya."
+  },
+  {
+    "objectID": "docs/python-programming/posts/post-01/post.html#alasan-python-layak-untuk-dipelajari",
+    "href": "docs/python-programming/posts/post-01/post.html#alasan-python-layak-untuk-dipelajari",
+    "title": "Bahasa Python - Alasannya Layak untuk Dipelajari",
+    "section": "Alasan Python layak untuk dipelajari",
+    "text": "Alasan Python layak untuk dipelajari\nDikutip dari [@FutureLearn2021What] terdapat beberap alasan Python layak untuk dipelajari, di anataranya:\n\nMudah untuk digunakan terlebih bagi mereka yang baru belajar dasar-dasar pemrograman.\nMemiliki syntax yang mirip dengan Bahasa Inggris yang memudahkan pengguna untuk belajar dan memahami program yang dibuat.\nTerdapat banyak library pendukung untuk berbagai keperluan. Hal ini disebabkan Python yang tergolong ke dalam open-source language sehingga memiliki komunitas yang besar dan banyaknya pengguna berkontribusi dalam pengembangan library tertentu.\nFleksibel digunakan untuk keperluan apa pun mulai dari pengembangan aplikasi atau website hingga tugas perkuliahan."
+  },
+  {
+    "objectID": "docs/python-programming/posts/post-01/post.html#keharusan-belajar-python",
+    "href": "docs/python-programming/posts/post-01/post.html#keharusan-belajar-python",
+    "title": "Bahasa Python - Alasannya Layak untuk Dipelajari",
+    "section": "Keharusan belajar Python",
+    "text": "Keharusan belajar Python\nDengan kemajuan teknologi informasi dan penggunaan media sosial yang masif menyebabkan banyak sumber materi pembelajarn Python di berbagai media seperti Youtube dan course dari lembaga tertentu baik yang gratis maupun berbayar. Beberapa kanal YouTube seperti Indonesia Belajar, Dea Afrizal, Corey Schafer dan Tech With Tim merangkum materi mendasar Python untuk pemula. Free courses seperti FreeCodeCamp dan Kaggel memiliki cakupan materi pengelan dasar Python hingga penerapannya di bidang webapp dan machine learning. Melihat penerapan Python yang luas di berbagai bidang dan ketersediaan resources materi cukup menjadi alasan seseorang mempelajari bahasa tersebut. Terlebih di era digital ini kemampuan programming sangat dibutuhkan dalam kegiatan industri."
+  },
+  {
+    "objectID": "docs/python-programming/posts/post-02/post.html",
+    "href": "docs/python-programming/posts/post-02/post.html",
+    "title": "Python Environtmen - Media Utama dalam Pengembangan Program Python",
+    "section": "",
+    "text": "Kepopuleran Python sebagai bahasa yang banyak digunakan pada saat ini tidak lepas dari pengaruh ketersediaan media atau tools yang digunakan untuk pengembangan program Python. Kebanyakan pengguna dapat memilih antara memakai IDE, Code/Text Editor atau menggunakan Online Tools yang dapat dijalankan melalui browser selama terkoneksi dengan internet."
+  },
+  {
+    "objectID": "docs/python-programming/posts/post-02/post.html#pycharm",
+    "href": "docs/python-programming/posts/post-02/post.html#pycharm",
+    "title": "Python Environtmen - Media Utama dalam Pengembangan Program Python",
+    "section": "PyCharm",
+    "text": "PyCharm\n\nMerupakan IDE keluaran JetBrain yang terdedikasi untuk Python developer. Fitur pada IDE ini berfokus pada penyediaan environment dalam pengembangan Python, web dan data science. Terdapat beberapa pilihan versi IDE yang dapat diambil baik yang open-source maupun yang berbayar. Selain Python, IDE ini juga mendukung bahasa lainnya seperti bahasa HTML, CSS, JavaScript dan R. PyCharm menyediakan plugin tersendiri untuk memudahkan konfigurasi masing-masing bahasa. PyCharm dapat dijalankan pada sistem operasi pada umumnya seperti Windows, Linux dan MacOS. Selama device yang digunakan memiliki 4GB ram, disk space lebih dari 2.5GB hingga resolusi layar minimum 1024x768 PyCharm dapat dijalankan pada device tersebut [@JetBrains2022Get]."
+  },
+  {
+    "objectID": "docs/python-programming/posts/post-02/post.html#anaconda",
+    "href": "docs/python-programming/posts/post-02/post.html#anaconda",
+    "title": "Python Environtmen - Media Utama dalam Pengembangan Program Python",
+    "section": "Anaconda",
+    "text": "Anaconda\n\nMerupakan IDE Python yang berfokus pada pengembangan data science. IDE ini sudah dilengkapi beberapa libraries yang umum digunakan dalam kegiatan data science seperti numpy, pandas, matplotlib dan scikit-learn. Beberapa fitur menarik telah terpapasang pada IDE ini seperti packet manager Conda yang mudah digunakan untuk instalasi Python libraries serta pengaturan virtual environment. Selain itu juga terdapat Anaconda Navigator yang merupakan aplikasi desktop berfungsi mengatur integrated application, libraries dan python environment tanpa perlu menggunakan Command Line Interface (CLI). Anaconda juga dilengkapi fitur Cloud Environment Backup sebagai mendia penyimpanan local environment. Dari versi distribusi yang tersedia, pengguna dapat memilih open source distribution atau paid version [@Anaconda].\n\n\n\nAnaconda Navigation"
+  },
+  {
+    "objectID": "docs/python-programming/posts/post-02/post.html#vs-code",
+    "href": "docs/python-programming/posts/post-02/post.html#vs-code",
+    "title": "Python Environtmen - Media Utama dalam Pengembangan Program Python",
+    "section": "VS Code",
+    "text": "VS Code\nMerupakan code editor keluaran Microsoft. Dapat dijalankan pada Windows, MacOS dan linux. Memiliki fitur penambahan extension yang memudahkan pengguna untuk meng-custom code editor sesuai kebutuhannya. Terdapat banyak extension yang tersedia untuk berbagai bahasa pemrograman. Selain itu juga tersedia extension yang berfokus pada workflow seperti git dan tampilan editor seperti color scheme dan icon.\n\n\n\nTampilan VS Code"
+  },
+  {
+    "objectID": "docs/python-programming/posts/post-02/post.html#neovim",
+    "href": "docs/python-programming/posts/post-02/post.html#neovim",
+    "title": "Python Environtmen - Media Utama dalam Pengembangan Program Python",
+    "section": "NeoVim",
+    "text": "NeoVim\nNeovim merupakan code editor berbasis Vim yang didesain untuk ekstensibilitas dan kegunaan serta mendorong pengguna baru untuk ikut berkontribusi [@neovimAbout]. Merupakan project open source yang dijalankan oleh komunitas untuk mengembangkan neovim menjadi lebih baik lagi. Memiliki banyak plugin yang dapat dipasang untuk memudahkan programmer. Ribuan plugin dapat dilihat pada Vim Awesome. Memiliki ciri khas tidak bergantung pada mouse selama dijalankan dan terdapat banyak shortcut atau key binding yang memudahkan programmer menjalankan tugasnya. Hal ini menyebabkan workflow programmer lebih efisien karena menjaga tangannya tetap berada di atas keyboard.\n\n\n\nTampilan Neovim"
   }
 ]

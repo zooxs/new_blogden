@@ -85,5 +85,35 @@
   },
   "docs/fisika-dasar/posts/kinematike-1d/soal-no-07.qmd": {
     "soal-no-07.html": "c3238521"
+  },
+  "docs/blog/posts/project-01.qmd": {
+    "project-01.html": "12a1003f"
+  },
+  "docs/python-programming/posts/post-01/post.qmd": {
+    "post.html": "425abc72"
+  },
+  "docs/python-programming/posts/post-02/post.qmd": {
+    "post.html": "08cfb550"
+  },
+  "docs/python-programming/posts/post-03/post.qmd": {
+    "post.html": "aeeb5f1b"
+  },
+  "docs/python-programming/posts/post-04/post.qmd": {
+    "post.html": "9b9c7f33"
+  },
+  "docs/python-programming/posts/post-05/post.qmd": {
+    "post.html": "2d764159"
+  },
+  "docs/python-programming/posts/post-06/post.qmd": {
+    "post.html": "375a4522"
+  },
+  "docs/python-programming/posts/post-07/post.qmd": {
+    "post.html": "3359ab99"
+  },
+  "docs/python-programming/posts/post-08/post.qmd": {
+    "post.html": "91a5c7b3"
+  },
+  "docs/python-programming/posts/post-09/post.qmd": {
+    "post.html": "5e8cc2b3"
   }
 }
