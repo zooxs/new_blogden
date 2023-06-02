@@ -7,6 +7,18 @@ draft: true
 
 # Python Pandas
 
+Pandas merupakan librari pada Python yang umum digunakan untuk keperluan pengolahan data. Librari ini menyediakan fitur yang lengkap sehingga pengguna dapat dengan mudah mengolah, memanipulasi dan melakukan analisis terhadap data yang diamati. Umumnya librari ini digunakan pada *pre-processing* dalam suatu analisis. Data tersebut diekstrak, dikonversi kedalam format yang ditentukan dan menyimpannya kedalam tempat penyimpanan yang tersedia. 
+
 # Data Badan Pusat Statistik (BPS)
+
+Badan Pusat Statistik (BPS) merupakan sebuah Lembaga Pemerintahan Non Kementerian yang bertanggung jawab langsung kepada Presiden. Salah satu tujuan BPS adalah menyediakan kebutuhan data bagi pemerintah dan masyarakat. Data tersebut didapatkan dari sensus maupun survei dari lembaga tersebut dan pihak terkait lainnya sebagai data sekunder.
+
+## Ruang lingkup data
+
+BPS menyediakan data pada ruang lingkup yang cukup luas mulai sosial, ekonomi dan pertanian yang masing-masing memiliki pembagian tersendiri.
+
+## Format umum
+
+
 
 # Ekstraksi Data
