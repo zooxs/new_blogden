@@ -5,20 +5,39 @@ toc: true
 draft: true
 ---
 
-# Python Pandas
+# Latar Belakang
 
-Pandas merupakan librari pada Python yang umum digunakan untuk keperluan pengolahan data. Librari ini menyediakan fitur yang lengkap sehingga pengguna dapat dengan mudah mengolah, memanipulasi dan melakukan analisis terhadap data yang diamati. Umumnya librari ini digunakan pada *pre-processing* dalam suatu analisis. Data tersebut diekstrak, dikonversi kedalam format yang ditentukan dan menyimpannya kedalam tempat penyimpanan yang tersedia. 
+- pengelan bps
+- alasan mengekstrak data bps
+  - salah satu sumber data yang umum digunakan dalam analisis
+  - memiliki ruang lingkup yang luas
+- apa permasalahan dari data bps
+  - data bps memiliki format baku
+  - data tsb disimpan dalam format terpisah berdasarkan rentang tahun tertentu
+  - cukup sulit untuk mengkompilasinya
+- solusi apa yang dapat diberikan
+  - membuat program fungsi sebagai ETL
 
-# Data Badan Pusat Statistik (BPS)
+## Pengenalan BPS
 
-Badan Pusat Statistik (BPS) merupakan sebuah Lembaga Pemerintahan Non Kementerian yang bertanggung jawab langsung kepada Presiden. Salah satu tujuan BPS adalah menyediakan kebutuhan data bagi pemerintah dan masyarakat. Data tersebut didapatkan dari sensus maupun survei dari lembaga tersebut dan pihak terkait lainnya sebagai data sekunder.
+Badan Pusat Statistik (BPS) merupakan Lembaga Non Pemerintahan yang bertanggung jawab langsung kepada Presiden. Landasan hukum badan ini tertuang pada UU Nomor 16 Tahun 1997 tentang Statistik. Merujuk pada undang-undang tersebut, salah satu peran BPS adalah menyediakan kebutuhan data bagi pemerintah dan masyrakat yang didapatkan melalui sensus oleh pihak internal maupun ekternal.
 
-## Ruang lingkup data
+## Data BPS
 
-BPS menyediakan data pada ruang lingkup yang cukup luas mulai sosial, ekonomi dan pertanian yang masing-masing memiliki pembagian tersendiri.
+Data BPS memiliki cakupan yang luas mulai dari ruang lingkup Sosial dan Kependudukan, Ekonomi dan Perdangan hingga Pertanian dan Pertambangan. Masing-masing kelompok data tersebut mimiliki pembagian yang lebih detail. Salah satu jenis data yang tersedia adalah jumlah produksi komoditas suatu daerah berdasarkan rentang tahun yang tersedia. Pada data tersebut dilengkapi detail terkait jenis komoditas. Gambar di bawah ini merupakan contoh data BPS yang berisi jumlah produksi sayuran di Kabupaten Sumatera Selatan tahun 2015 - 2017.
 
-## Format umum
+![Contoh Data BPS](img/contoh-data-bps.png){#fig-contoh-data-bps}
+
+## Permasalahan
 
 
 
-# Ekstraksi Data
+## Solusi
+
+
+# Metode Ektraksi
+
+- mengunuh data
+- menentukan format data
+  - menentukan elemen penting pada data
+  - mengambil elemen penting tsb

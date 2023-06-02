@@ -80,6 +80,10 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Beranda</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="../../../docs/python-programming/index.html">
+ <span class="menu-text">Python</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../../../docs/kalkulus/index.html">
  <span class="menu-text">Kalkulus</span></a>
   </li>  
@@ -120,12 +124,17 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Di halaman ini</h2>
+    <h2 id="toc-title">Daftar Isi</h2>
    
   <ul>
-  <li><a href="#python-pandas" id="toc-python-pandas" class="nav-link active" data-scroll-target="#python-pandas">Python Pandas</a></li>
-  <li><a href="#data-badan-pusat-statistik-bps" id="toc-data-badan-pusat-statistik-bps" class="nav-link" data-scroll-target="#data-badan-pusat-statistik-bps">Data Badan Pusat Statistik (BPS)</a></li>
-  <li><a href="#ekstraksi-data" id="toc-ekstraksi-data" class="nav-link" data-scroll-target="#ekstraksi-data">Ekstraksi Data</a></li>
+  <li><a href="#latar-belakang" id="toc-latar-belakang" class="nav-link active" data-scroll-target="#latar-belakang">Latar Belakang</a>
+  <ul class="collapse">
+  <li><a href="#pengenalan-bps" id="toc-pengenalan-bps" class="nav-link" data-scroll-target="#pengenalan-bps">Pengenalan BPS</a></li>
+  <li><a href="#data-bps" id="toc-data-bps" class="nav-link" data-scroll-target="#data-bps">Data BPS</a></li>
+  <li><a href="#permasalahan" id="toc-permasalahan" class="nav-link" data-scroll-target="#permasalahan">Permasalahan</a></li>
+  <li><a href="#solusi" id="toc-solusi" class="nav-link" data-scroll-target="#solusi">Solusi</a></li>
+  </ul></li>
+  <li><a href="#metode-ektraksi" id="toc-metode-ektraksi" class="nav-link" data-scroll-target="#metode-ektraksi">Metode Ektraksi</a></li>
   </ul>
 </nav>
     </div>
@@ -213,14 +222,57 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="python-pandas" class="level1">
-<h1>Python Pandas</h1>
+<section id="latar-belakang" class="level1">
+<h1>Latar Belakang</h1>
+<ul>
+<li>pengelan bps</li>
+<li>alasan mengekstrak data bps
+<ul>
+<li>salah satu sumber data yang umum digunakan dalam analisis</li>
+<li>memiliki ruang lingkup yang luas</li>
+</ul></li>
+<li>apa permasalahan dari data bps
+<ul>
+<li>data bps memiliki format baku</li>
+<li>data tsb disimpan dalam format terpisah berdasarkan rentang tahun tertentu</li>
+<li>cukup sulit untuk mengkompilasinya</li>
+</ul></li>
+<li>solusi apa yang dapat diberikan
+<ul>
+<li>membuat program fungsi sebagai ETL</li>
+</ul></li>
+</ul>
+<section id="pengenalan-bps" class="level2">
+<h2 class="anchored" data-anchor-id="pengenalan-bps">Pengenalan BPS</h2>
+<p>Badan Pusat Statistik (BPS) merupakan Lembaga Non Pemerintahan yang bertanggung jawab langsung kepada Presiden. Landasan hukum badan ini tertuang pada UU Nomor 16 Tahun 1997 tentang Statistik. Merujuk pada undang-undang tersebut, salah satu peran BPS adalah menyediakan kebutuhan data bagi pemerintah dan masyrakat yang didapatkan melalui sensus oleh pihak internal maupun ekternal.</p>
 </section>
-<section id="data-badan-pusat-statistik-bps" class="level1">
-<h1>Data Badan Pusat Statistik (BPS)</h1>
+<section id="data-bps" class="level2">
+<h2 class="anchored" data-anchor-id="data-bps">Data BPS</h2>
+<p>Data BPS memiliki cakupan yang luas mulai dari ruang lingkup Sosial dan Kependudukan, Ekonomi dan Perdangan hingga Pertanian dan Pertambangan. Masing-masing kelompok data tersebut mimiliki pembagian yang lebih detail. Salah satu jenis data yang tersedia adalah jumlah produksi komoditas suatu daerah berdasarkan rentang tahun yang tersedia. Pada data tersebut dilengkapi detail terkait jenis komoditas. Gambar di bawah ini merupakan contoh data BPS yang berisi jumlah produksi sayuran di Kabupaten Sumatera Selatan tahun 2015 - 2017.</p>
+<div id="fig-contoh-data-bps" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="img/contoh-data-bps.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Gambar&nbsp;1: Contoh Data BPS</figcaption><p></p>
+</figure>
+</div>
 </section>
-<section id="ekstraksi-data" class="level1">
-<h1>Ekstraksi Data</h1>
+<section id="permasalahan" class="level2">
+<h2 class="anchored" data-anchor-id="permasalahan">Permasalahan</h2>
+</section>
+<section id="solusi" class="level2">
+<h2 class="anchored" data-anchor-id="solusi">Solusi</h2>
+</section>
+</section>
+<section id="metode-ektraksi" class="level1">
+<h1>Metode Ektraksi</h1>
+<ul>
+<li>mengunuh data</li>
+<li>menentukan format data
+<ul>
+<li>menentukan elemen penting pada data</li>
+<li>mengambil elemen penting tsb</li>
+</ul></li>
+</ul>
 
 
 </section>

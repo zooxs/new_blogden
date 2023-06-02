@@ -45,6 +45,8 @@ format:
     theme: cosmos
     include-before-body: docs/share-on-button.html
     css: styles.css
+    bibliography: ref.bib
+    csl: apa.csl
 
 lang: id
 language: bahasa.yml
