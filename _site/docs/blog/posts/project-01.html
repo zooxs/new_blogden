@@ -224,31 +224,13 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="latar-belakang" class="level1">
 <h1>Latar Belakang</h1>
-<ul>
-<li>pengelan bps</li>
-<li>alasan mengekstrak data bps
-<ul>
-<li>salah satu sumber data yang umum digunakan dalam analisis</li>
-<li>memiliki ruang lingkup yang luas</li>
-</ul></li>
-<li>apa permasalahan dari data bps
-<ul>
-<li>data bps memiliki format baku</li>
-<li>data tsb disimpan dalam format terpisah berdasarkan rentang tahun tertentu</li>
-<li>cukup sulit untuk mengkompilasinya</li>
-</ul></li>
-<li>solusi apa yang dapat diberikan
-<ul>
-<li>membuat program fungsi sebagai ETL</li>
-</ul></li>
-</ul>
 <section id="pengenalan-bps" class="level2">
 <h2 class="anchored" data-anchor-id="pengenalan-bps">Pengenalan BPS</h2>
 <p>Badan Pusat Statistik (BPS) merupakan Lembaga Non Pemerintahan yang bertanggung jawab langsung kepada Presiden. Landasan hukum badan ini tertuang pada UU Nomor 16 Tahun 1997 tentang Statistik. Merujuk pada undang-undang tersebut, salah satu peran BPS adalah menyediakan kebutuhan data bagi pemerintah dan masyrakat yang didapatkan melalui sensus oleh pihak internal maupun ekternal.</p>
 </section>
 <section id="data-bps" class="level2">
 <h2 class="anchored" data-anchor-id="data-bps">Data BPS</h2>
-<p>Data BPS memiliki cakupan yang luas mulai dari ruang lingkup Sosial dan Kependudukan, Ekonomi dan Perdangan hingga Pertanian dan Pertambangan. Masing-masing kelompok data tersebut mimiliki pembagian yang lebih detail. Salah satu jenis data yang tersedia adalah jumlah produksi komoditas suatu daerah berdasarkan rentang tahun yang tersedia. Pada data tersebut dilengkapi detail terkait jenis komoditas. Gambar di bawah ini merupakan contoh data BPS yang berisi jumlah produksi sayuran di Kabupaten Sumatera Selatan tahun 2015 - 2017.</p>
+<p>Data BPS memiliki cakupan yang luas mulai dari ruang lingkup Sosial dan Kependudukan, Ekonomi dan Perdagangan hingga Pertanian dan Pertambangan. Masing-masing kelompok data tersebut mimiliki pembagian yang lebih detail. Salah satu jenis data yang tersedia adalah jumlah produksi komoditas suatu daerah berdasarkan rentang tahun yang tersedia. Pada data tersebut dilengkapi detail terkait jenis komoditas. Gambar di bawah ini merupakan contoh data BPS yang berisi jumlah produksi sayuran di Kabupaten Sumatera Selatan tahun 2015 - 2017.</p>
 <div id="fig-contoh-data-bps" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="img/contoh-data-bps.png" class="img-fluid figure-img"></p>
@@ -258,21 +240,30 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="permasalahan" class="level2">
 <h2 class="anchored" data-anchor-id="permasalahan">Permasalahan</h2>
+<p>Setiap data yang disediakan oleh BPS memiliki format baku. Pada contoh data di atas, secara umum terdapat beberapa informasi penting, di antaranya adalah:</p>
+<ul>
+<li>Judul tabel disertai kelompok dan satuan data</li>
+<li>Jenis data</li>
+<li>Rentang tahun</li>
+<li>Wilayah</li>
+<li><em>Footer</em></li>
+</ul>
+<p>Salah satu permasalahan dari bentuk data BPS ini adalah terpisahnya kelompok data yang sama berdasarkan rentang tahun yang tersedia. Hal ini menjadikan kompilasi data yang sama menjadi cukup sulit dan memakan waktu, terutama dengan jumlah data yang banyak. Format dari data tersebut mengikuti bentuk <em>wide table</em>, dimana tidak terdapat pengulangan pada baris data.</p>
 </section>
 <section id="solusi" class="level2">
 <h2 class="anchored" data-anchor-id="solusi">Solusi</h2>
+<p>Untuk keperluan kompilasi, data sebaiknya dibentuk dalam format <em>long table</em>, di mana terdapat pengulangan pada barisnya. Gambar di bawah ini menampilkan data BPS dalam bentuk <em>long table</em>.</p>
+<div id="fig-wide-table" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="img/contoh-data-output.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Gambar&nbsp;2: Data BPS dalam bentuk <em>wide table</em></figcaption><p></p>
+</figure>
+</div>
 </section>
 </section>
 <section id="metode-ektraksi" class="level1">
 <h1>Metode Ektraksi</h1>
-<ul>
-<li>mengunuh data</li>
-<li>menentukan format data
-<ul>
-<li>menentukan elemen penting pada data</li>
-<li>mengambil elemen penting tsb</li>
-</ul></li>
-</ul>
+<p>Program khusus diperlukan untuk mengkonversi data tersebut dari bentuk mentah menjadi format yang diinginkan. Bahasa Python digunakan pada project ini untuk membuat program tersebut.</p>
 
 
 </section>

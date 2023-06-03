@@ -7,16 +7,6 @@ draft: true
 
 # Latar Belakang
 
-- pengelan bps
-- alasan mengekstrak data bps
-  - salah satu sumber data yang umum digunakan dalam analisis
-  - memiliki ruang lingkup yang luas
-- apa permasalahan dari data bps
-  - data bps memiliki format baku
-  - data tsb disimpan dalam format terpisah berdasarkan rentang tahun tertentu
-  - cukup sulit untuk mengkompilasinya
-- solusi apa yang dapat diberikan
-  - membuat program fungsi sebagai ETL
 
 ## Pengenalan BPS
 
@@ -24,20 +14,31 @@ Badan Pusat Statistik (BPS) merupakan Lembaga Non Pemerintahan yang bertanggung 
 
 ## Data BPS
 
-Data BPS memiliki cakupan yang luas mulai dari ruang lingkup Sosial dan Kependudukan, Ekonomi dan Perdangan hingga Pertanian dan Pertambangan. Masing-masing kelompok data tersebut mimiliki pembagian yang lebih detail. Salah satu jenis data yang tersedia adalah jumlah produksi komoditas suatu daerah berdasarkan rentang tahun yang tersedia. Pada data tersebut dilengkapi detail terkait jenis komoditas. Gambar di bawah ini merupakan contoh data BPS yang berisi jumlah produksi sayuran di Kabupaten Sumatera Selatan tahun 2015 - 2017.
+Data BPS memiliki cakupan yang luas mulai dari ruang lingkup Sosial dan Kependudukan, Ekonomi dan Perdagangan hingga Pertanian dan Pertambangan. Masing-masing kelompok data tersebut mimiliki pembagian yang lebih detail. Salah satu jenis data yang tersedia adalah jumlah produksi komoditas suatu daerah berdasarkan rentang tahun yang tersedia. Pada data tersebut dilengkapi detail terkait jenis komoditas. Gambar di bawah ini merupakan contoh data BPS yang berisi jumlah produksi sayuran di Kabupaten Sumatera Selatan tahun 2015 - 2017.
 
 ![Contoh Data BPS](img/contoh-data-bps.png){#fig-contoh-data-bps}
 
 ## Permasalahan
 
+Setiap data yang disediakan oleh BPS memiliki format baku. Pada contoh data di atas, secara umum terdapat beberapa informasi penting, di antaranya adalah:
 
+- Judul tabel disertai kelompok dan satuan data
+- Jenis data
+- Rentang tahun
+- Wilayah
+- *Footer*
+
+Salah satu permasalahan dari bentuk data BPS ini adalah terpisahnya kelompok data yang sama berdasarkan rentang tahun yang tersedia. Hal ini menjadikan kompilasi data yang sama menjadi cukup sulit dan memakan waktu, terutama dengan jumlah data yang banyak. Format dari data tersebut mengikuti bentuk *wide table*, dimana tidak terdapat pengulangan pada baris data. 
 
 ## Solusi
+
+Untuk keperluan kompilasi, data sebaiknya dibentuk dalam format *long table*, di mana terdapat pengulangan pada barisnya. Gambar di bawah ini menampilkan data BPS dalam bentuk *long table*.
+
+![Data BPS dalam bentuk *wide table*](img/contoh-data-output.png){#fig-wide-table}
 
 
 # Metode Ektraksi
 
-- mengunuh data
-- menentukan format data
-  - menentukan elemen penting pada data
-  - mengambil elemen penting tsb
+Program khusus diperlukan untuk mengkonversi data tersebut dari bentuk mentah menjadi format yang diinginkan. Bahasa Python digunakan pada project ini untuk membuat program tersebut. 
+
+
