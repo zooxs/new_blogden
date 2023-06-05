@@ -3,6 +3,7 @@ title: "7 Poin Penting Dalam Memahami Gerak Lurus"
 author: "Pandu Mulya Muhammad Syah"
 toc: true
 draft: true
+categories: [Fisika Dasar, Kinematika]
 ---
 
 # Gerakan

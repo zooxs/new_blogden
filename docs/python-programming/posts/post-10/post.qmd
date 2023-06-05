@@ -1,0 +1,47 @@
+---
+title: "Membaca Data Tabel Menggunakan Pandas"
+description: |
+   Ringkasan cara membaca data tabel dari berbagai format menggunakan Pandas 
+author: "Pandu Mulya Muhammad Syah"
+toc: true
+categories: [Python, Pandas]
+date: 05 06 2023
+---
+
+Librari Pandas dapat membaca data tabel dari berbagai format, di antaranya adalah file `.csv`, `.xlsx` dan `.txt`. Pada artikel ini akan ditampilkan cara membaca data dari setiap jenis file tersebut menggunakan pandas. Masing-masing file yang digunakan adalah:
+
+- `data1.csv`
+- `data2.xlsx`
+- `data3.txt`
+
+# Membaca Data `.csv`
+
+Data `.csv` dapat dibaca dengan menggunakan metode `.read_csv(filename, sep)` dengan memasukkan parameter `filename` dan `sep`.
+
+- Parameter `filename` merupakan nama file dari berkas yang akan dibaca. Selain nama file, parameter ini juga dapat dinyatakan sebagai lokasi dari data jika file data dan file program python tidak berada di folder yang sama seperti `folder/filename`.
+- Parameter `sep` merupakan pemisah nilai pada file. Umumnya tanda pemisah yang digunakan pada file ini adalah `,` sehingga parameter ini dapat diabaikan. Beberapa tanda pemisah yang dapat digunakan antara lain adalah `;` dan `\t`.
+
+```{python}
+import pandas as pd
+
+df1 = pd.read_csv("data1.csv")
+df1
+```
+
+# Membaca Data `.xlsx`
+
+Data `.xlsx` dapat dibaca dengan menggunakan metode `.read_excel(filename)` dengan memasukkan parameter `filename`.
+
+```{python}
+df2 = pd.read_excel("data2.xlsx")
+df2
+```
+
+# Membaca Data `.txt`
+
+Mirip seperti ata `.csv`, data `.txt` dapat dibaca dengan menggunakan metode `.read_csv(filename, sep)` dengan memasukkan parameter `filename` dan `sep`. Salah satu perbedaan yang terlihat dari pembacaan kedua jenis data ini adalah penggunaan tanda pemisah `\t`.
+
+```{python}
+df3 = pd.read_csv("data3.txt", sep="\t")
+df3
+```

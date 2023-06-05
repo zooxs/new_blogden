@@ -2,6 +2,7 @@
 title: "Pembahasan Soal Kinematika 1D - 05"
 author: "Pandu Mulya Muhammad Syah"
 toc: true
+categories: [Fisika Dasar, Kinematika]
 date: 24 05 2023
 ---
 

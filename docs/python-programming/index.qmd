@@ -2,7 +2,10 @@
 title: "Python Programming"
 toc: false
 listing:
-  contents: posts
-  type: default
-  fields: [image, date, title, author, reading-time]
+    contents: posts
+    sort: "date desc"
+    type: default
+    categories: true
+page-layout: full
+title-block-banner: true
 ---

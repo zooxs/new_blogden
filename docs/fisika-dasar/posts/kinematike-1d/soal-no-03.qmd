@@ -3,6 +3,7 @@ title: "Pembahasan Soal Kinematika 1D - 03"
 author: "Pandu Mulya Muhammad Syah"
 toc: true
 date: 21 05 2023
+categories: [Fisika Dasar, Kinematika]
 ---
 
 ![](img/tb-kinematik-1d-03.png)

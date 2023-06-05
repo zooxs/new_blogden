@@ -70,9 +70,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-author','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -95,7 +95,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -152,7 +152,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
+    <div class="quarto-title column-page-left">
       <h1 class="title">Fisika Dasar</h1>
                       </div>
   </div>
@@ -166,12 +166,14 @@ ul.task-list li input[type="checkbox"] {
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Kategori</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Semua <span class="quarto-category-count">(7)</span></div><div class="category" data-category="Fisika Dasar">Fisika Dasar <span class="quarto-category-count">(7)</span></div><div class="category" data-category="Kinematika">Kinematika <span class="quarto-category-count">(7)</span></div></div></div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
 
 <div class="share-on-section">
@@ -238,175 +240,275 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Diurutkan oleh" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Diurutkan oleh</option>
-       <option value="index" data-direction="asc">Bawaan</option>
-         <option value="listing-date-sort" data-direction="asc">
-          Tanggal - Terlama
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Tanggal - Terbaru
-        </option>
-         <option value="listing-title-sort" data-direction="asc">
-          Judul
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Penulis
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="Fisika Dasar,Kinematika" data-listing-date-sort="1685206800000" data-listing-file-modified-sort="1685970806769" data-listing-reading-time-sort="1.18">
+<div class="thumbnail">
+<p><a href="../../docs/fisika-dasar/posts/kinematike-1d/soal-no-07.html"> <img src="../../docs/fisika-dasar/posts/kinematike-1d/img/tb-kinematik-1d-07.png" class="thumnail-image"> </a></p>
 </div>
+<div class="body">
+<a href="../../docs/fisika-dasar/posts/kinematike-1d/soal-no-07.html">
+<h3 class="no-anchor listing-title">
+Pembahasan Soal Kinematika 1D - 07
+</h3>
+<div class="listing-subtitle">
 
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-</th>
-<th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Tanggal</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Judul</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Penulis</a>
-</th>
-<th>
-Waktu Baca
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-date-sort="1684342800000" data-listing-file-modified-sort="1684996822419" data-listing-reading-time-sort="0.6" data-listing-title-sort="Pembahasan Soal Kinematika 1D - 01" data-listing-filename-sort="soal-no-01.qmd">
-<td class="listing-image">
-<img src="../../docs/fisika-dasar/posts/kinematike-1d/img/tb-kinematik-1d-01.png" style="height: 40px;">
-</td>
-<td class="listing-date">
-18 Mei 2023
-</td>
-<td class="listing-title">
-<a href="../../docs/fisika-dasar/posts/kinematike-1d/soal-no-01.html" class="title">Pembahasan Soal Kinematika 1D - 01</a>
-</td>
-<td class="listing-author">
-Pandu Mulya Muhammad Syah
-</td>
-<td class="listing-reading-time">
-0 min
-</td>
-</tr>
-<tr data-index="1" data-listing-date-sort="1684429200000" data-listing-file-modified-sort="1684819907997" data-listing-reading-time-sort="0.87" data-listing-title-sort="Pembahasan Soal Kinematika 1D - 02" data-listing-filename-sort="soal-no-02.qmd">
-<td class="listing-image">
-<img src="../../docs/fisika-dasar/posts/kinematike-1d/img/tb-kinematik-1d-02.png" style="height: 40px;">
-</td>
-<td class="listing-date">
-19 Mei 2023
-</td>
-<td class="listing-title">
-<a href="../../docs/fisika-dasar/posts/kinematike-1d/soal-no-02.html" class="title">Pembahasan Soal Kinematika 1D - 02</a>
-</td>
-<td class="listing-author">
-Pandu Mulya Muhammad Syah
-</td>
-<td class="listing-reading-time">
-0 min
-</td>
-</tr>
-<tr data-index="2" data-listing-date-sort="1684602000000" data-listing-file-modified-sort="1684819892099" data-listing-reading-time-sort="1.265" data-listing-title-sort="Pembahasan Soal Kinematika 1D - 03" data-listing-filename-sort="soal-no-03.qmd">
-<td class="listing-image">
-<img src="../../docs/fisika-dasar/posts/kinematike-1d/img/tb-kinematik-1d-03.png" style="height: 40px;">
-</td>
-<td class="listing-date">
-21 Mei 2023
-</td>
-<td class="listing-title">
-<a href="../../docs/fisika-dasar/posts/kinematike-1d/soal-no-03.html" class="title">Pembahasan Soal Kinematika 1D - 03</a>
-</td>
-<td class="listing-author">
-Pandu Mulya Muhammad Syah
-</td>
-<td class="listing-reading-time">
-1 min
-</td>
-</tr>
-<tr data-index="3" data-listing-date-sort="1684774800000" data-listing-file-modified-sort="1684819863743" data-listing-reading-time-sort="0.81" data-listing-title-sort="Pembahasan Soal Kinematika 1D - 04" data-listing-filename-sort="soal-no-04.qmd">
-<td class="listing-image">
-<img src="../../docs/fisika-dasar/posts/kinematike-1d/img/tb-kinematik-1d-04.png" style="height: 40px;">
-</td>
-<td class="listing-date">
-23 Mei 2023
-</td>
-<td class="listing-title">
-<a href="../../docs/fisika-dasar/posts/kinematike-1d/soal-no-04.html" class="title">Pembahasan Soal Kinematika 1D - 04</a>
-</td>
-<td class="listing-author">
-Pandu Mulya Muhammad Syah
-</td>
-<td class="listing-reading-time">
-0 min
-</td>
-</tr>
-<tr data-index="4" data-listing-date-sort="1684861200000" data-listing-file-modified-sort="1684885688616" data-listing-reading-time-sort="0.615" data-listing-title-sort="Pembahasan Soal Kinematika 1D - 05" data-listing-filename-sort="soal-no-05.qmd">
-<td class="listing-image">
-<img src="../../docs/fisika-dasar/posts/kinematike-1d/img/tb-kinematik-1d-05.png" style="height: 40px;">
-</td>
-<td class="listing-date">
-24 Mei 2023
-</td>
-<td class="listing-title">
-<a href="../../docs/fisika-dasar/posts/kinematike-1d/soal-no-05.html" class="title">Pembahasan Soal Kinematika 1D - 05</a>
-</td>
-<td class="listing-author">
-Pandu Mulya Muhammad Syah
-</td>
-<td class="listing-reading-time">
-0 min
-</td>
-</tr>
-<tr data-index="5" data-listing-date-sort="1684947600000" data-listing-file-modified-sort="1684979785926" data-listing-reading-time-sort="0.82" data-listing-title-sort="Pembahasan Soal Kinematika 1D - 06" data-listing-filename-sort="soal-no-06.qmd">
-<td class="listing-image">
-<img src="../../docs/fisika-dasar/posts/kinematike-1d/img/tb-kinematik-1d-06.png" style="height: 40px;">
-</td>
-<td class="listing-date">
-25 Mei 2023
-</td>
-<td class="listing-title">
-<a href="../../docs/fisika-dasar/posts/kinematike-1d/soal-no-06.html" class="title">Pembahasan Soal Kinematika 1D - 06</a>
-</td>
-<td class="listing-author">
-Pandu Mulya Muhammad Syah
-</td>
-<td class="listing-reading-time">
-0 min
-</td>
-</tr>
-<tr data-index="6" data-listing-date-sort="1685206800000" data-listing-file-modified-sort="1685253783717" data-listing-reading-time-sort="1.18" data-listing-title-sort="Pembahasan Soal Kinematika 1D - 07" data-listing-filename-sort="soal-no-07.qmd">
-<td class="listing-image">
-<img src="../../docs/fisika-dasar/posts/kinematike-1d/img/tb-kinematik-1d-07.png" style="height: 40px;">
-</td>
-<td class="listing-date">
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Fisika Dasar'); return false;">
+Fisika Dasar
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Kinematika'); return false;">
+Kinematika
+</div>
+</div>
+<a href="../../docs/fisika-dasar/posts/kinematike-1d/soal-no-07.html">
+<div class="listing-description">
+Sebuah elevator dapat…<sup></sup>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../../docs/fisika-dasar/posts/kinematike-1d/soal-no-07.html">
+<div class="listing-date">
 28 Mei 2023
-</td>
-<td class="listing-title">
-<a href="../../docs/fisika-dasar/posts/kinematike-1d/soal-no-07.html" class="title">Pembahasan Soal Kinematika 1D - 07</a>
-</td>
-<td class="listing-author">
+</div>
+<div class="listing-author">
 Pandu Mulya Muhammad Syah
-</td>
-<td class="listing-reading-time">
-1 min
-</td>
-</tr>
-</tbody>
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="Fisika Dasar,Kinematika" data-listing-date-sort="1684947600000" data-listing-file-modified-sort="1685970796325" data-listing-reading-time-sort="0.82">
+<div class="thumbnail">
+<p><a href="../../docs/fisika-dasar/posts/kinematike-1d/soal-no-06.html"> <img src="../../docs/fisika-dasar/posts/kinematike-1d/img/tb-kinematik-1d-06.png" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="../../docs/fisika-dasar/posts/kinematike-1d/soal-no-06.html">
+<h3 class="no-anchor listing-title">
+Pembahasan Soal Kinematika 1D - 06
+</h3>
+<div class="listing-subtitle">
 
-</table>
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Fisika Dasar'); return false;">
+Fisika Dasar
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Kinematika'); return false;">
+Kinematika
+</div>
+</div>
+<a href="../../docs/fisika-dasar/posts/kinematike-1d/soal-no-06.html">
+<div class="listing-description">
+Sebuah mobil bergerak dari keadaan diam dengan percepatan 2 m/s<sup>2</sup> pada…<sup></sup>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../../docs/fisika-dasar/posts/kinematike-1d/soal-no-06.html">
+<div class="listing-date">
+25 Mei 2023
+</div>
+<div class="listing-author">
+Pandu Mulya Muhammad Syah
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="Fisika Dasar,Kinematika" data-listing-date-sort="1684861200000" data-listing-file-modified-sort="1685970786191" data-listing-reading-time-sort="0.615">
+<div class="thumbnail">
+<p><a href="../../docs/fisika-dasar/posts/kinematike-1d/soal-no-05.html"> <img src="../../docs/fisika-dasar/posts/kinematike-1d/img/tb-kinematik-1d-05.png" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="../../docs/fisika-dasar/posts/kinematike-1d/soal-no-05.html">
+<h3 class="no-anchor listing-title">
+Pembahasan Soal Kinematika 1D - 05
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Fisika Dasar'); return false;">
+Fisika Dasar
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Kinematika'); return false;">
+Kinematika
+</div>
+</div>
+<a href="../../docs/fisika-dasar/posts/kinematike-1d/soal-no-05.html">
+<div class="listing-description">
+Posisi sebuah partikel dapat diwakilkan oleh fungsi gerak (dalam cm) terhadap waktu <span class="math inline">\(x(t) = 15t - 15t^3\)</span>.…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../../docs/fisika-dasar/posts/kinematike-1d/soal-no-05.html">
+<div class="listing-date">
+24 Mei 2023
+</div>
+<div class="listing-author">
+Pandu Mulya Muhammad Syah
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="Fisika Dasar,Kinematika" data-listing-date-sort="1684774800000" data-listing-file-modified-sort="1685970758813" data-listing-reading-time-sort="0.81">
+<div class="thumbnail">
+<p><a href="../../docs/fisika-dasar/posts/kinematike-1d/soal-no-04.html"> <img src="../../docs/fisika-dasar/posts/kinematike-1d/img/tb-kinematik-1d-04.png" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="../../docs/fisika-dasar/posts/kinematike-1d/soal-no-04.html">
+<h3 class="no-anchor listing-title">
+Pembahasan Soal Kinematika 1D - 04
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Fisika Dasar'); return false;">
+Fisika Dasar
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Kinematika'); return false;">
+Kinematika
+</div>
+</div>
+<a href="../../docs/fisika-dasar/posts/kinematike-1d/soal-no-04.html">
+<div class="listing-description">
+Posisi sebuah bola dapat diwakilkan oleh fungsi gerak (dalam cm) terhadap waktu <span class="math inline">\(x(t) = 5 + 2.5t^3\)</span>. Berdasarkan fungsi tersebut, tentukan kecepatan rata-rata bola…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../../docs/fisika-dasar/posts/kinematike-1d/soal-no-04.html">
+<div class="listing-date">
+23 Mei 2023
+</div>
+<div class="listing-author">
+Pandu Mulya Muhammad Syah
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="Fisika Dasar,Kinematika" data-listing-date-sort="1684602000000" data-listing-file-modified-sort="1685970747632" data-listing-reading-time-sort="1.265">
+<div class="thumbnail">
+<p><a href="../../docs/fisika-dasar/posts/kinematike-1d/soal-no-03.html"> <img src="../../docs/fisika-dasar/posts/kinematike-1d/img/tb-kinematik-1d-03.png" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="../../docs/fisika-dasar/posts/kinematike-1d/soal-no-03.html">
+<h3 class="no-anchor listing-title">
+Pembahasan Soal Kinematika 1D - 03
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Fisika Dasar'); return false;">
+Fisika Dasar
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Kinematika'); return false;">
+Kinematika
+</div>
+</div>
+<a href="../../docs/fisika-dasar/posts/kinematike-1d/soal-no-03.html">
+<div class="listing-description">
+Budi berencana melakukan perjalanan antara Kota A dan Kota B yang berjarak 300 km. Pada rute tersebut pengendara biasanya membutuhkan waktu 3 jam menggunakan mobil. Budi…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../../docs/fisika-dasar/posts/kinematike-1d/soal-no-03.html">
+<div class="listing-date">
+21 Mei 2023
+</div>
+<div class="listing-author">
+Pandu Mulya Muhammad Syah
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="Fisika Dasar,Kinematika" data-listing-date-sort="1684429200000" data-listing-file-modified-sort="1685970736753" data-listing-reading-time-sort="0.87">
+<div class="thumbnail">
+<p><a href="../../docs/fisika-dasar/posts/kinematike-1d/soal-no-02.html"> <img src="../../docs/fisika-dasar/posts/kinematike-1d/img/tb-kinematik-1d-02.png" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="../../docs/fisika-dasar/posts/kinematike-1d/soal-no-02.html">
+<h3 class="no-anchor listing-title">
+Pembahasan Soal Kinematika 1D - 02
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Fisika Dasar'); return false;">
+Fisika Dasar
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Kinematika'); return false;">
+Kinematika
+</div>
+</div>
+<a href="../../docs/fisika-dasar/posts/kinematike-1d/soal-no-02.html">
+<div class="listing-description">
+Pada lomba lari jarak 1 km diketahui pelari nomor punggung 1 di jalur 1 sampai pada garis finish dengan waktu tempuh 2 menit 10.95 detik. Pelari nomor punggung 2 di jalur 2…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../../docs/fisika-dasar/posts/kinematike-1d/soal-no-02.html">
+<div class="listing-date">
+19 Mei 2023
+</div>
+<div class="listing-author">
+Pandu Mulya Muhammad Syah
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-categories="Fisika Dasar,Kinematika" data-listing-date-sort="1684342800000" data-listing-file-modified-sort="1685970711698" data-listing-reading-time-sort="0.6">
+<div class="thumbnail">
+<p><a href="../../docs/fisika-dasar/posts/kinematike-1d/soal-no-01.html"> <img src="../../docs/fisika-dasar/posts/kinematike-1d/img/tb-kinematik-1d-01.png" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="../../docs/fisika-dasar/posts/kinematike-1d/soal-no-01.html">
+<h3 class="no-anchor listing-title">
+Pembahasan Soal Kinematika 1D - 01
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Fisika Dasar'); return false;">
+Fisika Dasar
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Kinematika'); return false;">
+Kinematika
+</div>
+</div>
+<a href="../../docs/fisika-dasar/posts/kinematike-1d/soal-no-01.html">
+<div class="listing-description">
+Sebuah bola bergerak pada lintasan lurus sepanjang 100 m. Pada 50 m pertama…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../../docs/fisika-dasar/posts/kinematike-1d/soal-no-01.html">
+<div class="listing-date">
+18 Mei 2023
+</div>
+<div class="listing-author">
+Pandu Mulya Muhammad Syah
+</div>
+</a>
+</div>
+</div>
+</div>
 <div class="listing-no-matching d-none">
 Tidak ada item yang cocok
 </div>
