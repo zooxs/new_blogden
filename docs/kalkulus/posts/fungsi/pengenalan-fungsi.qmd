@@ -4,6 +4,7 @@ author: "Pandu Mulya Muhammad Syah"
 layout: article
 date: 04 03 2023
 toc: true
+categories: [Kalkulus, Fungsi]
 ---
 
 

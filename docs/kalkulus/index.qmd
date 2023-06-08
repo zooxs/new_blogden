@@ -1,8 +1,10 @@
 ---
 title: "Kalkulus"
 title-block-banner: true
-listing: 
-    type: table
+listing:
     contents: posts
-    fields: [image, date, title, author, reading-time]
+    sort: "date desc"
+    type: default
+    categories: true
+page-layout: full
 ---

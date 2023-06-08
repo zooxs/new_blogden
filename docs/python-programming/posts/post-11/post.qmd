@@ -1,0 +1,74 @@
+---
+title: "Mengganti Nama Kolom Menggunakan Pandas"
+description: |
+   Beberapa cara yang dapat digunakan untuk mengganti nama kolom pada data tabel menggunakan Pandas
+author: "Pandu Mulya Muhammad Syah"
+toc: true
+categories: [Python, Pandas]
+date: 08 06 2023
+---
+
+Pada librari Pandas terdapat beberapa cara yang umum digunakan untuk mengganti nama kolom baik satu atau banyak kolom. Terdapat 2 cara yang sering digunakan, dianataranya adalah metode `rename()` dan menetapkan daftar nama kolom baru.
+
+```{python}
+import pandas as pd
+
+df = pd.read_csv("data.csv")
+df.columns
+```
+
+# Menggunakan metode `.rename()`
+
+Metode ini membutuhkan beberapa parameter yaitu `mapper`, `axis` dan `inplace`. *Mapper* merupakan objek *dictionary* atau fungsi, berisi nama kolom yang akan diganti dengan nama kolom baru. *Mapper* tersebut dapat berisi lebih dari 1 item sehingga memudahkan untuk mengganti beberapa nama kolom sekaligus.
+
+- `mapper --> {"kolom_lama": "kolom_baru"}`
+
+Parameter `inplace` dapat memodifikasi dataframe atau membuat salinannya setelah mengganti nama. Jika ditetapkan bernilai `True` maka dataframe dimodifikasi dan tidak terdapat salinan data tersebut, begitu juga sebaliknya.
+
+- `inplace='True'`
+- `inplace='False'`
+
+Parameter `axis` berisi target baik pengganti nama kolom atau nama baris.
+
+- `axis='columns'`
+- `axis='index'`
+
+
+## Satu kolom
+
+Variabel `gantiNama` merupakan `mapper` untuk mengganti 1 nama kolom.
+
+```{python}
+gantiNama = {"Kabupaten/Kota": "Kabupaten"}
+df.rename(columns=gantiNama, inplace=True)
+df
+```
+
+## Banyak kolom
+
+Untuk mengganti lebih dari 1 nama kolom dapat menambahkan item target nama kolom dan nama baru pada variabel `gantiNama`.
+
+```{python}
+gantiNama = {"kelompok": "Kelompok", "jenis": "Jenis", "satuan": "Satuan"}
+df.rename(columns=gantiNama, inplace=True)
+df
+```
+
+## Menggunakan fungsi
+
+Contoh di bawah ini menampilkan cara penggunaan fungsi sebagai `mapper` untuk mengganti nama kolom menjadi huruf kapital.
+
+```{python}
+df.rename(str.upper, axis="columns")
+df
+```
+
+# Menetapkan daftar nama kolom baru
+
+Nama kolom pada dataframe dapat diakses menggunakan atribut `columns` dalam bentuk `list`. Atribut tersebut dapat ditetapkan ulang menggunakan daftar nama kolom baru dengan jumlah kolom yang sama.
+
+```{python}
+kolomBaru = ["kolom_1", "kolom_2", "kolom_3", "kolom_4", "kolom_5"]
+df.columns = kolomBaru
+df
+```

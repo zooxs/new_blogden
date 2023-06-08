@@ -70,9 +70,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-author','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -95,7 +95,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -109,6 +109,10 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="../../index.html">
  <span class="menu-text">Beranda</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../docs/python-programming/index.html">
+ <span class="menu-text">Python</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="../../docs/kalkulus/index.html" aria-current="page">
@@ -148,7 +152,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
+    <div class="quarto-title column-page-left">
       <h1 class="title">Kalkulus</h1>
                       </div>
   </div>
@@ -162,12 +166,14 @@ ul.task-list li input[type="checkbox"] {
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Kategori</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Semua <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Fungsi">Fungsi <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Kalkulus">Kalkulus <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
 
 <div class="share-on-section">
@@ -234,73 +240,47 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Diurutkan oleh" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Diurutkan oleh</option>
-       <option value="index" data-direction="asc">Bawaan</option>
-         <option value="listing-date-sort" data-direction="asc">
-          Tanggal - Terlama
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Tanggal - Terbaru
-        </option>
-         <option value="listing-title-sort" data-direction="asc">
-          Judul
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Penulis
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="Kalkulus,Fungsi" data-listing-date-sort="1677862800000" data-listing-file-modified-sort="1686194919989" data-listing-reading-time-sort="2.61">
+<div class="thumbnail">
+<p><a href="../../docs/kalkulus/posts/fungsi/pengenalan-fungsi.html"> <img src="../../docs/kalkulus/posts/fungsi/grafik-fungsi.png" class="thumnail-image"> </a></p>
 </div>
+<div class="body">
+<a href="../../docs/kalkulus/posts/fungsi/pengenalan-fungsi.html">
+<h3 class="no-anchor listing-title">
+Pengenalan Fungsi
+</h3>
+<div class="listing-subtitle">
 
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-</th>
-<th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Tanggal</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Judul</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Penulis</a>
-</th>
-<th>
-Waktu Baca
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-date-sort="1677862800000" data-listing-file-modified-sort="1677923210148" data-listing-reading-time-sort="2.61" data-listing-title-sort="Pengenalan Fungsi" data-listing-filename-sort="pengenalan-fungsi.qmd">
-<td class="listing-image">
-<img src="../../docs/kalkulus/posts/fungsi/grafik-fungsi.png" style="height: 40px;">
-</td>
-<td class="listing-date">
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Kalkulus'); return false;">
+Kalkulus
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Fungsi'); return false;">
+Fungsi
+</div>
+</div>
+<a href="../../docs/kalkulus/posts/fungsi/pengenalan-fungsi.html">
+<div class="listing-description">
+Fungsi merupakan salah satu materi dasar dan penting yang dipelajari dalam bidang matematika. Fungsi menjelaskan hubungan antara suatu variabel dengan variabel lainnya…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../../docs/kalkulus/posts/fungsi/pengenalan-fungsi.html">
+<div class="listing-date">
 4 Mar 2023
-</td>
-<td class="listing-title">
-<a href="../../docs/kalkulus/posts/fungsi/pengenalan-fungsi.html" class="title">Pengenalan Fungsi</a>
-</td>
-<td class="listing-author">
+</div>
+<div class="listing-author">
 Pandu Mulya Muhammad Syah
-</td>
-<td class="listing-reading-time">
-2 min
-</td>
-</tr>
-</tbody>
-
-</table>
+</div>
+</a>
+</div>
+</div>
+</div>
 <div class="listing-no-matching d-none">
 Tidak ada item yang cocok
 </div>

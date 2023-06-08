@@ -1,13 +1,13 @@
 ---
 title: "BlogDen"
 subtitle: "Blog pribadi tempat berbagi pengetahuan."
-page-layout: article
+page-layout: full
 title-block-banner: true
-# listing:
-#    type: default
-#   fields: [image, date, title, author, reading-time]
-#    contents: 
-#      - "docs/blog/posts/*qmd"
+listing:
+    contents: "docs/*/posts/*/*.qmd"
+    sort: "date desc"
+    type: default
+    categories: true
 ---
 
 
