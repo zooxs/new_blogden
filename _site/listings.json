@@ -20,6 +20,7 @@
   {
     "listing": "/docs/python-programming/index.html",
     "items": [
+      "/docs/python-programming/posts/post-12/post.html",
       "/docs/python-programming/posts/post-11/post.html",
       "/docs/python-programming/posts/post-10/post.html",
       "/docs/python-programming/posts/post-09/post.html",
@@ -36,6 +37,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/docs/python-programming/posts/post-12/post.html",
       "/docs/python-programming/posts/post-11/post.html",
       "/docs/python-programming/posts/post-10/post.html",
       "/docs/fisika-dasar/posts/kinematike-1d/soal-no-07.html",
